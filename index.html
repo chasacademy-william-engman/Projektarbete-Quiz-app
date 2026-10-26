@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="script/api.js" defer></script>
-    <link rel="stylesheet" href="/style/style-index.css" />
-    <link rel="stylesheet" href="/style/base.css" />
+
+    <link rel="stylesheet" href="style/base.css" />
+    <link rel="stylesheet" href="style/style-index.css" />
+
     <!-- FONTAWSOME ICONS -->
     <link
       rel="stylesheet"
@@ -14,11 +15,43 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <title>Quiz Game</title>
   </head>
   <body>
-    <header class="page-bar">
-      <h1 class="page-bar__title">Sidans titel</h1>
-    </header>
+    <header class="page-bar"></header>
+    <h1>Dashboard</h1>
+
+    <nav>
+      <ul>
+        <li>
+          <i class="fa-regular fa-folder"></i>
+          <a href="">
+            <div>
+              <p class="quiz-title">Quizzes</p>
+              <p>Choose between different categories</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <i class="fa-regular fa-star"></i>
+          <a href="">
+            <div>
+              <p class="quiz-title">Scoreboard</p>
+              <p>Check the Scoreboard to see the rankings</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <i class="fa-solid fa-rotate-left"></i>
+          <a href="">
+            <div>
+              <p class="quiz-title">Previous Quizzes</p>
+              <p>Replay quizzes you already played</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
