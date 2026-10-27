@@ -18,7 +18,9 @@
   </head>
   <body>
     <header class="page-bar">
-      <button class="boton-elegante">Exit Quiz</button>
+      <button class="boton-elegante boton-elegante--light" type="button">
+        Exit Quiz
+      </button>
       <div class="timer-container" role="timer" aria-label="Time remaining">
         <i class="fa-regular fa-clock" aria-hidden="true"></i>
         <time class="timer" datetime="PT1M">1:00</time>
@@ -26,13 +28,6 @@
     </header>
 
     <main class="quiz-container">
-      <div class="question-banner">
-        <img src="images/stockholm.jpg" alt="" />
-        <h2 class="quiz-question" id="question">
-          What is the capital of Sweden?
-        </h2>
-      </div>
-
       <div
         class="quiz-progress"
         role="progressbar"
@@ -45,15 +40,22 @@
       </div>
 
       <section class="quiz-card">
+        <div class="question-banner">
+          <img src="https://placehold.co/600x200?text=Question+image" alt="" />
+          <h2 class="quiz-question" id="question">
+            What is the capital of Sweden?
+          </h2>
+        </div>
+
         <div class="quiz-options" role="group" aria-labelledby="question">
-          <button class="quiz-option" type="button">Gothenburg</button>
-          <button class="quiz-option selected" type="button">Stockholm</button>
+          <button class="quiz-option" type="button" disabled>Gothenburg</button>
+          <button class="quiz-option correct" type="button" disabled>
+            Stockholm
+          </button>
           <button class="quiz-option incorrect" type="button" disabled>
             Malmö
           </button>
-          <button class="quiz-option correct" type="button" disabled>
-            Uppsala
-          </button>
+          <button class="quiz-option selected" type="button">Uppsala</button>
         </div>
       </section>
     </main>
