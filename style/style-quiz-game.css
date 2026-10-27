@@ -1,0 +1,32 @@
+.page-bar {
+  justify-content: space-between;
+  padding: 0em 1em;
+  --bar-item-height: 2em;
+}
+
+.boton-elegante {
+  color: black;
+  border: 0;
+  background-color: var(--color-bg);
+  height: var(--bar-item-height);
+  line-height: 1;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  height: var(--bar-item-height);
+}
+
+.timer-container i {
+  font-size: var(--bar-item-height);
+  line-height: 1;
+}
+
+.timer {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
