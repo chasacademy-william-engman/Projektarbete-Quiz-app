@@ -1,0 +1,16 @@
+.boton-elegante {
+  width: 100%;
+  max-width: 420px;
+}
+
+.quiz-card {
+  margin: var(--space-lg);
+
+  h1 {
+    font-size: var(--font-size-xl);
+  }
+}
+
+.quiz-score {
+  font-size: calc(var(--font-size-3xl) + 0.5rem);
+}

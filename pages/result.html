@@ -18,12 +18,30 @@
   </head>
   <body>
     <header class="page-bar">
-      <a href="#" class="page-bar__back" aria-label="Tillbaka">
+      <a href="../index.html" class="page-bar__back" aria-label="Tillbaka">
         <span aria-hidden="true"
           ><i class="fa-solid fa-arrow-left-long"></i
         ></span>
       </a>
-      <h1 class="page-bar__title">Sidans titel</h1>
     </header>
+
+    <section class="quiz-card text-center" aria-labelledby="result-title">
+      <p class="quiz-meta">
+        <span
+          ><i class="fa-solid fa-layer-group" id="quiz-category"></i> History
+        </span>
+        <span id="quiz-difficulty">
+          <i class="fa-regular fa-face-laugh-beam" aria-hidden="true"></i>
+          Medium
+        </span>
+      </p>
+
+      <h1 id="result-title">Your score:</h1>
+      <p class="quiz-score" id="quiz-score">208208</p>
+
+      <button href="start-quiz.html" class="boton-elegante">
+        <i class="fa-solid fa-play" aria-hidden="true"></i> Play again
+      </button>
+    </section>
   </body>
 </html>
