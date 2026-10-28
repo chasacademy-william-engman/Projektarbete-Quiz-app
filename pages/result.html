@@ -18,30 +18,52 @@
   </head>
   <body>
     <header class="page-bar">
-      <a href="../index.html" class="page-bar__back" aria-label="Tillbaka">
+      <a
+        href="../index.html"
+        class="page-bar__back"
+        aria-label="Back to dashboard"
+      >
         <span aria-hidden="true"
           ><i class="fa-solid fa-arrow-left-long"></i
         ></span>
       </a>
     </header>
 
-    <section class="quiz-card text-center" aria-labelledby="result-title">
-      <p class="quiz-meta">
-        <span
-          ><i class="fa-solid fa-layer-group" id="quiz-category"></i> History
-        </span>
-        <span id="quiz-difficulty">
-          <i class="fa-regular fa-face-laugh-beam" aria-hidden="true"></i>
-          Medium
-        </span>
-      </p>
+    <main>
+      <section class="quiz-card text-center" aria-labelledby="result-title">
+        <p class="quiz-meta">
+          <span>
+            <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+            <span id="quiz-category">History</span>
+          </span>
+          <span>
+            <i class="fa-regular fa-face-laugh-beam" aria-hidden="true"></i>
+            <span id="quiz-difficulty">Medium</span>
+          </span>
+        </p>
 
-      <h1 id="result-title">Your score:</h1>
-      <p class="quiz-score" id="quiz-score">208208</p>
+        <h1 id="result-title">Your score:</h1>
+        <p class="quiz-score user-score" id="quiz-score">208208</p>
 
-      <button href="start-quiz.html" class="boton-elegante">
-        <i class="fa-solid fa-play" aria-hidden="true"></i> Play again
-      </button>
-    </section>
+        <button href="start-quiz.html" class="boton-elegante">
+          <i class="fa-solid fa-play" aria-hidden="true"></i> Play again
+        </button>
+      </section>
+
+      <section class="scoreboard">
+        <h2>Leaderboard</h2>
+        <ol>
+          <li class="quiz-card">
+            <strong class="order">1.</strong>
+            <strong class="name">Rolf</strong>
+            -
+            <strong class="quiz-score">700</strong>
+          </li>
+          <li class="quiz-card">…</li>
+          <li class="quiz-card">…</li>
+          <li class="quiz-card">…</li>
+        </ol>
+      </section>
+    </main>
   </body>
 </html>
