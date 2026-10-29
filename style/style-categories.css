@@ -1,0 +1,40 @@
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: var(--space-xl);
+  row-gap: var(--space-2xl);
+}
+
+.category-card {
+  min-width: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.category-card:hover {
+  transform: translateY(-2px);
+}
+
+.category-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  background-color: var(--color-bg-subtle);
+}
+
+.category-quiz {
+  margin: var(--space-sm) 0 0;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+  color: var(--color-text);
+}
+
+.category-update {
+  margin: var(--space-xs) 0 0;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.3;
+  color: var(--color-text-muted);
+}
