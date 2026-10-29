@@ -3,27 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="script/api.js" defer></script>
+
+    <title>Previous quizzes</title>
+
     <link rel="stylesheet" href="/style/base.css" />
     <link rel="stylesheet" href="/style/style-previous.css" />
-    <!-- FONTAWSOME ICONS -->
+
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-    <title>Previous Quizzes</title>
   </head>
+
   <body>
-    <header class="page-bar">
-      <a href="#" class="page-bar__back" aria-label="Tillbaka">
-        <span aria-hidden="true"
-          ><i class="fa-solid fa-arrow-left-long"></i
-        ></span>
-      </a>
-      <h1 class="page-bar__title">Sidans titel</h1>
-    </header>
+    <main class="quiz-container">
+      <section class="history-hero" aria-labelledby="history-title">
+        <img
+          class="history-hero__image"
+          src="https://placehold.co/402x364"
+          alt=""
+        />
+
+        <a href="#" class="history-hero__back" aria-label="Go back">
+          <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+        </a>
+
+        <h1 class="history-hero__title" id="history-title">Previous quizzes</h1>
+      </section>
+
+      <ul class="history-list">
+        <li>
+          <article class="history-card quiz-card">
+            <img
+              class="history-card__image"
+              src="https://placehold.co/60x60"
+              alt=""
+            />
+
+            <div class="history-card__info">
+              <h2>Ananas Quiz</h2>
+              <p>Fruit · Hard · 20<br />questions</p>
+            </div>
+
+            <p class="history-card__score">
+              <span>Score:</span>
+              <span class="quiz-score">700</span>
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article class="history-card quiz-card">
+            <img
+              class="history-card__image"
+              src="https://placehold.co/60x60"
+              alt=""
+            />
+
+            <div class="history-card__info">
+              <h2>Quiz</h2>
+              <p>Fruit · Hard · 20<br />questions</p>
+            </div>
+
+            <p class="history-card__score">
+              <span>Score:</span>
+              <span class="quiz-score">700</span>
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article class="history-card quiz-card">
+            <img
+              class="history-card__image"
+              src="https://placehold.co/60x60"
+              alt=""
+            />
+
+            <div class="history-card__info">
+              <h2>Quiz</h2>
+              <p>Fruit · Hard · 20<br />questions</p>
+            </div>
+
+            <p class="history-card__score">
+              <span>Score:</span>
+              <span class="quiz-score">700</span>
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article class="history-card quiz-card">
+            <img
+              class="history-card__image"
+              src="https://placehold.co/60x60"
+              alt=""
+            />
+
+            <div class="history-card__info">
+              <h2>Quiz</h2>
+              <p>Fruit · Hard · 20<br />questions</p>
+            </div>
+
+            <p class="history-card__score">
+              <span>Score:</span>
+              <span class="quiz-score">700</span>
+            </p>
+          </article>
+        </li>
+      </ul>
+
+      <div class="history-more">
+        <button class="history-more__button" type="button">
+          View 10 more quizzes...
+        </button>
+      </div>
+
+      <p class="history-empty" hidden>No previous quizzes yet.</p>
+    </main>
   </body>
 </html>
