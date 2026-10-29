@@ -1,0 +1,27 @@
+main {
+  margin: var(--space-lg);
+}
+
+.order {
+  color: rgb(154, 131, 0);
+}
+
+ol {
+  list-style: none;
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  margin: calc(var(--space-2xl) + 1rem) 0rem;
+  text-align: center;
+}
+
+.quiz-card {
+  margin: 0.5rem 0rem;
+  padding: var(--space-md);
+  font-size: var(--font-size-lg);
+
+  .quiz-score {
+    font-size: inherit;
+  }
+}
