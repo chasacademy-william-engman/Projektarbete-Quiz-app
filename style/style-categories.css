@@ -12,6 +12,7 @@
 }
 .category-card:hover {
   transform: translateY(-2px);
+  text-decoration: none;
 }
 
 .category-img {
