@@ -18,12 +18,46 @@
   </head>
   <body>
     <header class="page-bar">
-      <a href="#" class="page-bar__back" aria-label="Tillbaka">
-        <span aria-hidden="true"
-          ><i class="fa-solid fa-arrow-left-long"></i
-        ></span>
-      </a>
-      <h1 class="page-bar__title">Sidans titel</h1>
+      <button class="boton-elegante boton-elegante--light" type="button">
+        Exit Quiz
+      </button>
+      <div class="timer-container" role="timer" aria-label="Time remaining">
+        <i class="fa-regular fa-clock" aria-hidden="true"></i>
+        <time class="timer" datetime="PT1M">1:00</time>
+      </div>
     </header>
+
+    <main class="quiz-container">
+      <div
+        class="quiz-progress"
+        role="progressbar"
+        aria-label="Quiz progress"
+        aria-valuemin="0"
+        aria-valuemax="20"
+        aria-valuenow="10"
+      >
+        <div class="quiz-progress__bar" style="width: 50%"></div>
+      </div>
+
+      <section class="quiz-card">
+        <div class="question-banner">
+          <img src="https://placehold.co/600x200?text=Question+image" alt="" />
+          <h1 class="quiz-question" id="question">
+            What is the capital of Sweden?
+          </h1>
+        </div>
+
+        <div class="quiz-options" role="group" aria-labelledby="question">
+          <button class="quiz-option" type="button" disabled>Gothenburg</button>
+          <button class="quiz-option correct" type="button" disabled>
+            Stockholm
+          </button>
+          <button class="quiz-option incorrect" type="button" disabled>
+            Malmö
+          </button>
+          <button class="quiz-option selected" type="button">Uppsala</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
