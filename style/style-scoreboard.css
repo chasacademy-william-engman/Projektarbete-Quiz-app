@@ -2,10 +2,6 @@ main {
   margin: var(--space-lg);
 }
 
-.order {
-  color: rgb(154, 131, 0);
-}
-
 ol {
   list-style: none;
   font-weight: var(--font-weight-bold);
@@ -23,5 +19,50 @@ h1 {
 
   .quiz-score {
     font-size: inherit;
+  }
+}
+@media (min-width: 700px) {
+  main {
+    margin: 0;
+  }
+
+  .scoreboard {
+    width: 920px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: var(--space-2xl) 0 var(--space-md);
+    text-align: left;
+  }
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    font-weight: var(--font-weight-normal);
+  }
+
+  .quiz-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xl);
+    margin: 0;
+  }
+
+  .quiz-card:has(.name) {
+    font-size: 0;
+  }
+
+  .quiz-card .order,
+  .quiz-card .name,
+  .quiz-card .quiz-score {
+    font-size: var(--font-size-base);
+  }
+
+  .quiz-card .quiz-score {
+    margin: 0 0 0 auto;
+    text-align: right;
   }
 }
