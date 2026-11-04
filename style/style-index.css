@@ -46,7 +46,6 @@ ul {
     width: 900px;
     max-width: 90%;
     margin: var(--space-2xl) auto 0;
-    text-align: left;
     font-size: var(--font-size-3xl);
   }
 
@@ -56,7 +55,6 @@ ul {
     gap: var(--space-md);
     width: 920px;
     max-width: 90%;
-    margin-top: var(--space-md);
 
     li {
       border: solid 1px var(--color-border-strong);

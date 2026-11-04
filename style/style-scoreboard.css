@@ -13,18 +13,31 @@ h1 {
 }
 
 .quiz-card {
-  margin: 0.5rem 0rem;
-  padding: var(--space-md);
-  font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
 
-  .quiz-score {
-    font-size: inherit;
+.quiz-card .quiz-score {
+  margin-left: auto;
+}
+
+.scoreboard {
+  .quiz-card {
+    margin: 0.5rem 0rem;
+    padding: var(--space-md);
+    font-size: var(--font-size-lg);
+
+    .quiz-score {
+      font-size: inherit;
+    }
   }
   ol {
     list-style: none;
     font-weight: var(--font-weight-bold);
   }
 }
+
 @media (min-width: 700px) {
   main {
     margin: 0;
@@ -38,7 +51,6 @@ h1 {
 
   h1 {
     margin: var(--space-2xl) 0 var(--space-md);
-    text-align: left;
   }
 
   ol {

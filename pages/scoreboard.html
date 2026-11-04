@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="script/api.js" defer></script>
     <link rel="stylesheet" href="/style/base.css" />
     <link rel="stylesheet" href="/style/style-scoreboard.css" />
     <!-- FONTAWSOME ICONS -->
@@ -14,6 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="../script/data.js" defer></script>
     <title>Scoreboard</title>
   </head>
   <body>
@@ -30,9 +30,9 @@
     </header>
 
     <main>
+      <h1>Leaderboard</h1>
       <section class="scoreboard">
-        <h1>Leaderboard</h1>
-        <ol>
+        <ol id="leaderboard-list">
           <li class="quiz-card">
             <span class="order">1. </span>
             <span class="name">Rolf</span>

@@ -1,0 +1,14 @@
+{
+  "leaderboard": [
+    { "order": 1, "name": "Rolf", "score": 700 },
+    { "order": 2, "name": "Marta", "score": 685 },
+    { "order": 3, "name": "Kai", "score": 670 },
+    { "order": 4, "name": "Lena", "score": 650 },
+    { "order": 5, "name": "Sven", "score": 635 },
+    { "order": 6, "name": "Anya", "score": 610 },
+    { "order": 7, "name": "Diego", "score": 590 },
+    { "order": 8, "name": "Priya", "score": 575 },
+    { "order": 9, "name": "Noah", "score": 550 },
+    { "order": 10, "name": "Zara", "score": 520 }
+  ]
+}

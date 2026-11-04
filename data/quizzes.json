@@ -1,0 +1,2514 @@
+{
+  "source": "Questions from The Trivia API (https://the-trivia-api.com), licensed CC BY-NC 4.0",
+  "createdAt": "2026-10-30T11:34:42.015Z",
+  "categories": {
+    "food_and_drink": {
+      "easy": [
+        {
+          "id": "622a1c3b7cc59eab6f951557",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which US state is most associated with Chilli Con Carne?",
+          "correct": "Texas ",
+          "options": ["Texas ", "Florida", "Georgia", "California"]
+        },
+        {
+          "id": "648b872108102f4e90f095cf",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "What type of alcoholic beverage is bourbon?",
+          "correct": "Whiskey",
+          "options": ["Beer", "Wine", "Rum", "Whiskey"]
+        },
+        {
+          "id": "624c60f550d1a5e051325a7f",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Where in the world would you most expect to be served Haggis?",
+          "correct": "Scotland",
+          "options": ["Scotland", "Hungary", "Estonia", "Thailand"]
+        },
+        {
+          "id": "627164281ba117625baac94b",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which of these is a popular drink in The USA?",
+          "correct": "Bourbon",
+          "options": ["Pastis", "Bourbon", "Waragi", "Becherovka"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f951555",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "What name is given to an Indian deep fried triangular pastry?",
+          "correct": "Samosa",
+          "options": ["Samosa", "Curry", "Bhaji", "Pakora"]
+        },
+        {
+          "id": "64a094bccf8fd58080ceffdd",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Where did jerk chicken originate?",
+          "correct": "Jamaica",
+          "options": ["Jamaica", "Brazil", "Cuba", "Mexico"]
+        },
+        {
+          "id": "645b9ebcf09106226db2357c",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "What type of food has a version called \"Lorraine\"?",
+          "correct": "Quiche",
+          "options": ["Frittata", "Quiche", "Omelette", "Pizza"]
+        },
+        {
+          "id": "624c60dc50d1a5e051325a78",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which of these dishes is most associated with Netherlands?",
+          "correct": "Stamppot",
+          "options": ["Ramen", "Ropa Vieja", "Stamppot", "Meat Pie"]
+        },
+        {
+          "id": "627164241ba117625baac94a",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which country is associated with the drink whisky?",
+          "correct": "Scotland",
+          "options": ["Romania", "Italy", "Scotland", "Mexico"]
+        },
+        {
+          "id": "63b0588a4799123c67712f56",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which of these is a popular Mexican beer?",
+          "correct": "Corona",
+          "options": ["Budweiser", "Coors", "Heineken", "Corona"]
+        },
+        {
+          "id": "648889135dba6c873ef650b8",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which herb is often used as a garnish and comes in curly-leaf and flat-leaf varieties?",
+          "correct": "Parsley",
+          "options": ["Basil", "Oregano", "Thyme", "Parsley"]
+        },
+        {
+          "id": "65056ed77a97013de78b5372",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which of these is a fruit?",
+          "correct": "Cranberry",
+          "options": ["Land cress", "Spinach", "Mustard", "Cranberry"]
+        },
+        {
+          "id": "622a1c367cc59eab6f95029f",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "What sort of cheese would you sprinkle on spaghetti?",
+          "correct": "Parmesan ",
+          "options": ["Gorgonzola", "Parmesan ", "Wensleydale", "Stilton"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f951635",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": " What type of food is pitta?",
+          "correct": "Bread",
+          "options": ["Bread", "Fruit", "Nut", "Cheese"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515cc",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "From which country does the dish paella originate?",
+          "correct": "Spain ",
+          "options": ["France", "Italy", "Russia", "Spain "]
+        },
+        {
+          "id": "624c60bc50d1a5e051325a70",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Where in the world would you most expect to be served Sushi?",
+          "correct": "Japan",
+          "options": ["Turkey", "Spain", "Estonia", "Japan"]
+        },
+        {
+          "id": "65056e3e7a97013de78b529d",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which of these foods is not a fruit?",
+          "correct": "Turnip",
+          "options": ["Cherry", "Plum", "Lúcuma", "Turnip"]
+        },
+        {
+          "id": "65056df27a97013de78b5233",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "Which of these is a type of hot sauce?",
+          "correct": "Tabasco",
+          "options": ["Tabasco", "Soy", "Béchamel", "Jelly"]
+        },
+        {
+          "id": "6472060f222d3df382f0c861",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": "What is the French term for appetizers that are served before the meal?",
+          "correct": "Hors d'oeuvres",
+          "options": ["Hors d'oeuvres", "Tapas", "À la carte", "Croquettes"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f95164a",
+          "category": "food_and_drink",
+          "difficulty": "easy",
+          "question": " Iceberg, Boston, and Bibb are types of what?",
+          "correct": "Lettuce",
+          "options": ["Lettuce", "Bread", "Tomato", "Egg"]
+        }
+      ],
+      "normal": [
+        {
+          "id": "6487897aa754bb6010f8b037",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What type of vegetable is typically included in a Denver omelet, along with ham and onions?",
+          "correct": "Peppers",
+          "options": ["Carrot", "Peppers", "Spinach", "Broccoli"]
+        },
+        {
+          "id": "625006d90d86c8f685d80f01",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What type of pasta is orzo?",
+          "correct": "Soup pasta",
+          "options": [
+            "Stuffed pasta",
+            "Soup pasta",
+            "Tubular pasta",
+            "Shaped pasta"
+          ]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515b5",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which animal is used to sniff out truffles?",
+          "correct": "Pigs ",
+          "options": ["Cats", "Sheep", "Cows", "Pigs "]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502cd",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What do the letters VSOP on a brandy bottle stand for?",
+          "correct": "Very Superior Old Pale",
+          "options": [
+            "Very Superior Old Pale",
+            "Very Special Origin Product",
+            "Very Serious On Palette",
+            "Very Secretive Order Produce"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f95028c",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What type of pasta resembles a bow-tie in shape?",
+          "correct": "Farfalle ",
+          "options": ["Farfalle ", "Rigatoni", "Conchiglie", "Fusilli"]
+        },
+        {
+          "id": "622a1c367cc59eab6f950272",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which Ancient Civilisation Were Drinking Chocolate Milk As Long Ago As 600 BC?",
+          "correct": "Mayans ",
+          "options": ["Mayans ", "Greeks", "Babylonians", "Aztecs"]
+        },
+        {
+          "id": "65056e427a97013de78b52a3",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which of these is not a Japanese dish?",
+          "correct": "Wonton",
+          "options": ["Wonton", "Sushi", "Sashimi", "Tempura"]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502b1",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What Is The Principle Ingredient Of Mayonnaise?",
+          "correct": "Egg",
+          "options": ["Soured Cream", "Cheese", "Egg", "Milk"]
+        },
+        {
+          "id": "622a1c367cc59eab6f950252",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which familiar carbonated soft drink contains quinine?",
+          "correct": "Tonic Water ",
+          "options": ["Dr Pepper", "Coca Cola", "Tonic Water ", "Soda Water"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515ea",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Foie Gras comes from the liver of which animal? ",
+          "correct": "Goose ",
+          "options": ["Goose ", "Swan", "Goat", "Sheep"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515b9",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which hazelnut liqueur is named for the hermit monk who made it 600 years ago? ",
+          "correct": "Frangelico",
+          "options": ["Disaronno", "Frangelico", "Moscatel", "Absinthe"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515b8",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "How Are Tandoori Dishes Cooked?",
+          "correct": "In A Clay Oven",
+          "options": ["On a skewer", "Pureed", "Boiled", "In A Clay Oven"]
+        },
+        {
+          "id": "64ce98407f0714b9a0ca5e6e",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What is the name for the preparation of meat for grilling by splitting it down the middle?",
+          "correct": "Butterflying",
+          "options": ["Julienning", "Butterflying", "Marinating", "Basting"]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502dc",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "The Term 'Dutch Courage' Originally Came From The Consumption Of Which Drink?",
+          "correct": "Gin ",
+          "options": ["Gin ", "Avocaat", "Rum", "Vodka"]
+        },
+        {
+          "id": "6494b7cbd7601042f7eaa938",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which cocktail contains vodka, cranberry juice, lime juice, triple sec, and an orange twist?",
+          "correct": "A cosmopolitan",
+          "options": ["A martini", "A cosmopolitan", "A margarita", "A mojito"]
+        },
+        {
+          "id": "627164ca1ba117625baac975",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "Which of these drinks would you associate with Croatia?",
+          "correct": "Rakia",
+          "options": ["Sombai", "Schnapps", "Rakia", "Jenever"]
+        },
+        {
+          "id": "647edafd520523194910c2d9",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What is the sugary paste used for icing and cake decor that comes from the French word for 'melting'?",
+          "correct": "Fondant",
+          "options": ["Meringue", "Caramel", "Fondant", "Ganache"]
+        },
+        {
+          "id": "625006f80d86c8f685d80f0a",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What type of pasta is rigatoni?",
+          "correct": "Tubular pasta",
+          "options": [
+            "Shaped pasta",
+            "Soup pasta",
+            "Tubular pasta",
+            "Stuffed pasta"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502d4",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "What Are Escargots?",
+          "correct": "Snails ",
+          "options": ["Turtles", "Snails ", "Frogs", "Insects"]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502e4",
+          "category": "food_and_drink",
+          "difficulty": "medium",
+          "question": "In Which Country Were Fortune Cookies Invented? ",
+          "correct": "United States ",
+          "options": ["United States ", "Brazil", "China", "Thailand"]
+        }
+      ],
+      "hard": [
+        {
+          "id": "622a1c367cc59eab6f95024e",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Blanche Ames, Lord Lambourne and Willis Williams are all varieties of _________",
+          "correct": "Apple ",
+          "options": ["Apple ", "Grape", "Cherry", "Banana"]
+        },
+        {
+          "id": "6271647ed5d487fbab6b795c",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "In which country is sombai a popular drink?",
+          "correct": "Cambodia",
+          "options": ["Taiwan", "Cambodia", "Belgium", "Spain"]
+        },
+        {
+          "id": "624ab0bc348a461bfc670694",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Where in the world are peas originally from?",
+          "correct": "The Middle East",
+          "options": [
+            "The Middle East",
+            "South America",
+            "Africa",
+            "Central Asia"
+          ]
+        },
+        {
+          "id": "624c6136badf21197f98f76c",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Rösti is a dish that is most associated with which part of the world?",
+          "correct": "Switzerland",
+          "options": ["Switzerland", "Vietnam", "Barbados", "Ghana"]
+        },
+        {
+          "id": "627164ae1ba117625baac96e",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Which country is associated with the drink tuba?",
+          "correct": "The Phillipines",
+          "options": ["The Phillipines", "Romania", "Turkey", "Estonia"]
+        },
+        {
+          "id": "627164a41ba117625baac96b",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Which of these drinks would you associate with Hungary?",
+          "correct": "Unicum",
+          "options": ["Becherovka", "Pastis", "Unicum", "Bourbon"]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502cc",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "What Does Demi Sec Mean On A Champagne Bottle?",
+          "correct": "Sweet ",
+          "options": ["Sweet ", "Dry", "Light", "Crisp"]
+        },
+        {
+          "id": "625007240d86c8f685d80f17",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Which pasta's name means 'Bride and bridegroom'?",
+          "correct": "Ziti",
+          "options": ["Tagliatelle", "Ziti", "Penne", "Macaroni"]
+        },
+        {
+          "id": "6463394601d576cfac3aa32e",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "What juice makes a Cape Cod cocktail red?",
+          "correct": "Cranberry juice",
+          "options": [
+            "Pomegranate juice",
+            "Raspberry juice",
+            "Cherry juice",
+            "Cranberry juice"
+          ]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515a5",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "How Many Gallons In A Firkin?",
+          "correct": "9",
+          "options": ["1", "9", "36", "4"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515ac",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "What does the 'foie' mean in 'foie gras'? ",
+          "correct": "Liver",
+          "options": ["Liver", "Goose", "Force", "Fat"]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f9515dc",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "From what German region do Hock wines come?",
+          "correct": "The Rhine ",
+          "options": [
+            "Bavaria",
+            "The Rhine ",
+            "The Black Forest",
+            "Brandenburg"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f950220",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Which vegetable is the principal ingredient of rosti?",
+          "correct": "Potato ",
+          "options": ["Potato ", "Tomato", "Onion", "Carrot"]
+        },
+        {
+          "id": "62500680ea7a97fd2e356d2e",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Which pasta's name means 'Corkscrews'?",
+          "correct": "Cavatappi",
+          "options": ["Penne", "Orecchiette", "Cavatappi", "Ravioli"]
+        },
+        {
+          "id": "622a1c367cc59eab6f950232",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Which Spirit Is Pimm's No 1 Based On?",
+          "correct": "Gin ",
+          "options": ["Rum", "Vodka", "Whiskey", "Gin "]
+        },
+        {
+          "id": "6477bad1550bc819ad646b23",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "What is the name of the loaf of bread traditionally baked for the Jewish Sabbath?",
+          "correct": "Challah",
+          "options": ["Challah", "Bagel", "Matzo", "Pita"]
+        },
+        {
+          "id": "624ab0bf348a461bfc670695",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Where in the world are radishes originally from?",
+          "correct": "The Middle East",
+          "options": [
+            "South America",
+            "Southeast Asia",
+            "The Middle East",
+            "Central Asia"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f9502ed",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "From Which Fruit Is Grenadine Made?",
+          "correct": "Pomegranate ",
+          "options": ["Cranberry", "Mango", "Raspberry", "Pomegranate "]
+        },
+        {
+          "id": "624ab0aa348a461bfc67068d",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "Where in the world is asparagus originally from?",
+          "correct": "The Middle East",
+          "options": ["Africa", "South America", "The Middle East", "China"]
+        },
+        {
+          "id": "639898395c9a75021f310466",
+          "category": "food_and_drink",
+          "difficulty": "hard",
+          "question": "What is the most widely planted grape variety in the world?",
+          "correct": "Cabernet Sauvignon",
+          "options": [
+            "Cabernet Sauvignon",
+            "Merlot",
+            "Chardonnay",
+            "Pinot Noir"
+          ]
+        }
+      ]
+    },
+    "geography": {
+      "easy": [
+        {
+          "id": "62374083cb85f7ce9e949d06",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "What is the capital city of Germany?",
+          "correct": "Berlin",
+          "options": ["Berlin", "Munich", "Frankfurt", "Hamburg"]
+        },
+        {
+          "id": "62374206cb85f7ce9e949da2",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "What is the capital city of Russia?",
+          "correct": "Moscow",
+          "options": ["Moscow", "Vladivostok", "Kazan", "St Petersburg"]
+        },
+        {
+          "id": "623b5794fd6c701a92118368",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which city would you find the Acropolis?",
+          "correct": "Athens",
+          "options": ["Venice", "Moscow", "Jerusalem", "Athens"]
+        },
+        {
+          "id": "62602d704b176d54800e3c98",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "Hong Kong is a city in which country?",
+          "correct": "China",
+          "options": ["Taiwan", "China", "Sri Lanka", "Malaysia"]
+        },
+        {
+          "id": "65056f917a97013de78b5476",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "Which mountain range does the Colorado River flow through?",
+          "correct": "Rocky Mountains",
+          "options": [
+            "Transantarctic mountains",
+            "Andes",
+            "Himalayas",
+            "Rocky Mountains"
+          ]
+        },
+        {
+          "id": "62602e0a4b176d54800e3cbd",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which country is the city of Florence?",
+          "correct": "Italy",
+          "options": ["Hungary", "Portugal", "Italy", "Switzerland"]
+        },
+        {
+          "id": "65056f0c7a97013de78b53bd",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "What is the color of the cross on the Swiss flag?",
+          "correct": "White",
+          "options": ["White", "Black", "Blue", "Orange"]
+        },
+        {
+          "id": "623b578afd6c701a92118364",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which country would you find the Pyramids of Giza?",
+          "correct": "Egypt",
+          "options": ["Peru", "Indonesia", "Egypt", "Mexico"]
+        },
+        {
+          "id": "62602dcb014f58b5fc1a3fc5",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which country is the city of Auckland?",
+          "correct": "New Zealand",
+          "options": ["New Zealand", "Australia", "Canada", "Ireland"]
+        },
+        {
+          "id": "65056e187a97013de78b5268",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "What line divides Earth into the northern and southern hemispheres?",
+          "correct": "Equator",
+          "options": ["Arctic circle", "Equator", "Equinox", "Meridian"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe55",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which continent would you find the Amazon River?",
+          "correct": "South America",
+          "options": ["Africa", "Europe", "South America", "Asia"]
+        },
+        {
+          "id": "623b5834fd6c701a921183a4",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which country would you find the city of Saint Petersburg?",
+          "correct": "Russia",
+          "options": ["Bosnia & Herzegovina", "Sweden", "Greece", "Russia"]
+        },
+        {
+          "id": "6237353fcfe13103f55eb512",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "Which region of the world uses '.in' at the end of its web addresses?",
+          "correct": "India",
+          "options": ["United Kingdom", "India", "Ireland", "Indonesia"]
+        },
+        {
+          "id": "646339bc01d576cfac3aa3ae",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "What was the former name of the Moluccas, islands known for cloves, mace, and nutmeg?",
+          "correct": "The Spice Islands",
+          "options": [
+            "The Spice Islands",
+            "The Hidden Islands",
+            "The Sunken Islands",
+            "The Coral Islands"
+          ]
+        },
+        {
+          "id": "65056ec47a97013de78b5358",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which country can we find the town of Tequila?",
+          "correct": "Mexico",
+          "options": ["Uruguay", "Bolivia", "Peru", "Mexico"]
+        },
+        {
+          "id": "64e6fd970b79e5bedd55c8b5",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "Whidbey Island, just north of Seattle, provides the northern boundary of what body of water?",
+          "correct": "Puget Sound",
+          "options": [
+            "Atlantic Ocean",
+            "Lake Michigan",
+            "Gulf of Mexico",
+            "Puget Sound"
+          ]
+        },
+        {
+          "id": "623b5859fd6c701a921183b3",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "In which country would you find the Sydney Opera House?",
+          "correct": "Australia",
+          "options": ["France", "Australia", "Italy", "China"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe0d",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "Which is the Earth's largest continent?",
+          "correct": "Asia",
+          "options": ["Asia", "Europe", "North America", "Africa"]
+        },
+        {
+          "id": "625ea012796f721e95543fcc",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "What does the flag of United States look like?",
+          "correct": "13 horizontal stripes of red and white, with a blue rectangle in the top left containing 50 white stars.",
+          "options": [
+            "Red with a white cross that extends to the edges.",
+            "13 horizontal stripes of red and white, with a blue rectangle in the top left containing 50 white stars.",
+            "Two equal horizontal bands of blue and yellow.",
+            "Green with a yellow diamond in the center with a blue celestial globe."
+          ]
+        },
+        {
+          "id": "62602d174b176d54800e3c7e",
+          "category": "geography",
+          "difficulty": "easy",
+          "question": "Sydney is a city in which country?",
+          "correct": "Australia",
+          "options": ["Ireland", "Australia", "Canada", "New Zealand"]
+        }
+      ],
+      "normal": [
+        {
+          "id": "6233861c62eaad73716a8cb3",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Where Is Cape Horn?",
+          "correct": "Bottom Of South America ",
+          "options": [
+            "Bottom of South Africa",
+            "Bottom Of South America ",
+            "East Coast of Africa",
+            "The West of Alaska"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff9e",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "The \"Old City\" of this location is divided into four quarters — a Christian quarter, a Muslim Quarter, a Jewish Quarter, and an Armenian Quarter.",
+          "correct": "Jerusalem",
+          "options": ["Istanbul", "Paris", "Rome", "Jerusalem"]
+        },
+        {
+          "id": "65056f107a97013de78b53c2",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What is the capital of Colombia?",
+          "correct": "Bogotá",
+          "options": ["Quito", "San Jose", "Caracas", "Bogotá"]
+        },
+        {
+          "id": "623385ea62eaad73716a8c9f",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Where Are The Atlas Mountains?",
+          "correct": "North Africa ",
+          "options": [
+            "Australia",
+            "Central America",
+            "North Africa ",
+            "Eastern Europe"
+          ]
+        },
+        {
+          "id": "623740e2cb85f7ce9e949d2c",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What is the capital city of Jamaica?",
+          "correct": "Kingston",
+          "options": ["Mogadishu", "Bridgetown", "Kingston", "Gaborone"]
+        },
+        {
+          "id": "6ac2416c7457498440f6ee66",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which city was the capital of Poland before Warsaw?",
+          "correct": "Krakow",
+          "options": ["Gdansk", "Krakow", "Wroclaw", "Poznan"]
+        },
+        {
+          "id": "623385e562eaad73716a8c9d",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What's the opposite of the orient?",
+          "correct": "The Occident ",
+          "options": ["Leyton", "The Orrious", "The Occident ", "The Norient"]
+        },
+        {
+          "id": "64f3a941601ffca0b7615dd6",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which lost city can you see while hiking the Inca trail from Cuzco?",
+          "correct": "Machu Picchu",
+          "options": ["Machu Picchu", "Chichen Itza", "Angkor Wat", "Petra"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff7d",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What is the largest island in the Caribbean?",
+          "correct": "Cuba",
+          "options": ["Dominican Republic", "Cuba", "Haiti", "Jamaica"]
+        },
+        {
+          "id": "625e9e4b796f721e95543f4d",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What does the flag of Cuba look like?",
+          "correct": "Five equal horizontal bands of blue alternating with white, a red triangle on the left with a white star inside.",
+          "options": [
+            "Green with a yellow diamond in the center with a blue celestial globe.",
+            "Five equal horizontal bands of blue alternating with white, a red triangle on the left with a white star inside.",
+            "Maroon with a broad white serrated band on the left side.",
+            "White with a blue cross extending to the edges."
+          ]
+        },
+        {
+          "id": "623b57fcfd6c701a9211838f",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "In which country would you find the UNESCO World Heritage site of Wulingyuan?",
+          "correct": "China",
+          "options": ["Peru", "Cambodia", "Italy", "China"]
+        },
+        {
+          "id": "6233845a62eaad73716a8c02",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What Is The National Airline Of Russia?",
+          "correct": "Aeroflot",
+          "options": ["Mosk Air", "Aeroflot", "Lufthansa", "TAP Air"]
+        },
+        {
+          "id": "62602fe34b176d54800e3d01",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "In which country is the city of Alexandria?",
+          "correct": "Egypt",
+          "options": ["Saudi Arabia", "Lebanon", "Egypt", "Qatar"]
+        },
+        {
+          "id": "639c9da2929b90846f2fc977",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "What is the name of the iconic Gaudi building located in Barcelona?",
+          "correct": "Sagrada Familia",
+          "options": [
+            "Palau de la Musica Catalana",
+            "Palau Guell",
+            "Basilica de la Merce",
+            "Sagrada Familia"
+          ]
+        },
+        {
+          "id": "65056ec87a97013de78b535d",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which is NOT a state of the USA?",
+          "correct": "Alberta",
+          "options": ["Alberta", "Montana", "Wyoming", "Alaska"]
+        },
+        {
+          "id": "64746b6f5a4c31088dd9d058",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which of these countries shares the same first letter as its capital city?",
+          "correct": "Sweden",
+          "options": ["Peru", "Sweden", "Greece", "Colombia"]
+        },
+        {
+          "id": "625e9e47796f721e95543f4c",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which of these colors is included on the flag of Cote d'Ivoire?",
+          "correct": "Orange",
+          "options": ["Gold", "Maroon", "Blue", "Orange"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fd58",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which country has the largest amount of timezones on its mainland?",
+          "correct": "Russia",
+          "options": ["China", "Russia", "Australia", "The USA"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe28",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "Which American state's name is Spanish for \"flowered\" or \"flowery land\"?",
+          "correct": "Florida",
+          "options": ["California", "Kansas", "Texas", "Florida"]
+        },
+        {
+          "id": "623b5824fd6c701a9211839e",
+          "category": "geography",
+          "difficulty": "medium",
+          "question": "In which country would you find the UNESCO World Heritage site of Delphi?",
+          "correct": "Greece",
+          "options": ["Jordan", "Turkey", "Greece", "Belgium"]
+        }
+      ],
+      "hard": [
+        {
+          "id": "647f9de83a4302a719271650",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which Canadian city is nicknamed 'Oil City'?",
+          "correct": "Edmonton",
+          "options": ["Toronto", "Vancouver", "Edmonton", "Calgary"]
+        },
+        {
+          "id": "623386af62eaad73716a8ceb",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which Borough of New York is northeast of and adjacent to Manhattan?",
+          "correct": "The Bronx ",
+          "options": [
+            "The Bronx ",
+            "Brooklyn",
+            "Staten Island",
+            "The Jersey Shore"
+          ]
+        },
+        {
+          "id": "623742c3cb85f7ce9e949dee",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "What is the capital city of Uganda?",
+          "correct": "Kampala",
+          "options": ["Yamoussoukro", "Nuku'alofa", "Kampala", "Lilongwe"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ffd9",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which Central American country extends furthest North?",
+          "correct": "Belize",
+          "options": ["Belize", "El Salvador", "Honduras", "Guatemala"]
+        },
+        {
+          "id": "623742afcb85f7ce9e949de6",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "What is the capital city of Tunisia?",
+          "correct": "Tunis",
+          "options": ["Dakar", "Algiers", "Tunis", "Ankara"]
+        },
+        {
+          "id": "64dd398a9cef2bd3a34add05",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which US state is known by the nicknames \"The Sagebrush State\" and \"The Silver State\"?",
+          "correct": "Nevada",
+          "options": ["Colorado", "Nevada", "Arizona", "Utah"]
+        },
+        {
+          "id": "65056ecd7a97013de78b5365",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which US state does NOT border Mexico?",
+          "correct": "Colorado",
+          "options": ["New Mexico", "Colorado", "Texas", "Arizona"]
+        },
+        {
+          "id": "625e9f30796f721e95543f8a",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which of these colors would you find on the flag of Luxembourg?",
+          "correct": "Red",
+          "options": ["Red", "Black", "Yellow", "Orange"]
+        },
+        {
+          "id": "62374044cb85f7ce9e949ced",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Quito is the capital city of which country?",
+          "correct": "Ecuador",
+          "options": ["Albania", "Ecuador", "Mauritius", "Bahamas"]
+        },
+        {
+          "id": "623388880161109f922aac92",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which is the only landlocked country in South East Asia?",
+          "correct": "Laos",
+          "options": ["Laos", "Vietnam", "Thailand", "Cambodia"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff94",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which European city is nicknamed the city of a hundred spires?",
+          "correct": "Prague",
+          "options": ["Prague", "Vienna", "Budapest", "Oxford"]
+        },
+        {
+          "id": "6237373ccfe13103f55eb5a0",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which region of the world uses '.zw' at the end of its web addresses?",
+          "correct": "Zimbabwe",
+          "options": ["Western Sahara", "The Netherlands", "Zambia", "Zimbabwe"]
+        },
+        {
+          "id": "64976c110752843c0d8aadbe",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "In which Canadian province is Halifax?",
+          "correct": "Nova Scotia",
+          "options": [
+            "Prince Edward Island",
+            "New Brunswick",
+            "Nova Scotia",
+            "Quebec"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe2d",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "What is the basic unit of currency for Georgia (country)?",
+          "correct": "Lari",
+          "options": ["Terpo", "Lari", "Dollar", "Dinar"]
+        },
+        {
+          "id": "62374238cb85f7ce9e949db6",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "What is the capital city of Serbia?",
+          "correct": "Belgrade",
+          "options": ["Tallinn", "Riga", "Chisinau", "Belgrade"]
+        },
+        {
+          "id": "622a1c387cc59eab6f9509e6",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "Which of these countries borders Slovenia?",
+          "correct": "Italy",
+          "options": [
+            "San Marino",
+            "Bosnia and Herzegovina",
+            "Italy",
+            "Czech Republic"
+          ]
+        },
+        {
+          "id": "62374287cb85f7ce9e949dd6",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "What is the capital city of Taiwan?",
+          "correct": "Taipei",
+          "options": ["Tarawa", "Taipei", "Apia", "Beijing"]
+        },
+        {
+          "id": "649fe02bebb41911d4cbd6f6",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "In which middle eastern country is the city of Kirkuk?",
+          "correct": "Iraq",
+          "options": ["United Arab Emirates", "Saudi Arabia", "Kuwait", "Iraq"]
+        },
+        {
+          "id": "6237401acb85f7ce9e949cdc",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "What is the capital city of Cote d'Ivoire?",
+          "correct": "Yamoussoukro",
+          "options": ["Bamako", "Yamoussoukro", "Moroni", "Male"]
+        },
+        {
+          "id": "623b57ccfd6c701a9211837e",
+          "category": "geography",
+          "difficulty": "hard",
+          "question": "In which country would you find the UNESCO World Heritage site of Pergamon?",
+          "correct": "Turkey",
+          "options": ["Germany", "Hungary", "England", "Turkey"]
+        }
+      ]
+    },
+    "music": {
+      "easy": [
+        {
+          "id": "648ee4224fe93387161138ab",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "What is the one-word title of a 2014 Pharrell Williams hit?",
+          "correct": "Happy",
+          "options": ["Excited", "Satisfied", "Joyful", "Happy"]
+        },
+        {
+          "id": "65056e0a7a97013de78b5254",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Who directs an orchestra?",
+          "correct": "Conductor",
+          "options": ["Concertmaster", "Soloist", "Composer", "Conductor"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe67",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American singer, songwriter, dancer and actress released the song '...Baby One More Time'?",
+          "correct": "Britney Spears",
+          "options": [
+            "Mandy Moore",
+            "Jessica Simpson",
+            "Christina Aguilera",
+            "Britney Spears"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950dc2",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which band had Ringo Starr as its drummer?",
+          "correct": "The Beatles",
+          "options": [
+            "The Beatles",
+            "Nirvana",
+            "The Rolling Stones",
+            "Metallica"
+          ]
+        },
+        {
+          "id": "638c77ea01e1a2ef6d1f146e",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "What was Elvis Presley's wife's name?",
+          "correct": "Priscilla",
+          "options": ["Francesca", "Priscilla", "Glady", "Lisa Marie"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff53",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American singer released the album 'Dangerous'?",
+          "correct": "Michael Jackson",
+          "options": [
+            "Stevie Wonder",
+            "Prince",
+            "Michael Jackson",
+            "Lionel Richie"
+          ]
+        },
+        {
+          "id": "645bc4634638d58091b1b9d2",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which popular musical features the music of ABBA?",
+          "correct": "Mamma Mia!",
+          "options": [
+            "Les Misérables",
+            "West Side Story",
+            "Grease",
+            "Mamma Mia!"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff4c",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Who released the studio album 'Invincible'?",
+          "correct": "Michael Jackson",
+          "options": [
+            "Lionel Richie",
+            "Michael Jackson",
+            "Stevie Wonder",
+            "Prince"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94febf",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American singer, actress and record producer released the song 'Single Ladies (Put a Ring on It)'?",
+          "correct": "Beyoncé",
+          "options": ["Alicia Keys", "Beyoncé", "Ciara", "Rihanna"]
+        },
+        {
+          "id": "625063b1e12f6dec240bdf7b",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Vanilla Ice had a one hit wonder in 1990 with which song?",
+          "correct": "Ice Ice Baby",
+          "options": [
+            "Ice Ice Baby",
+            "We're Not Gonna Take It",
+            "I Want Candy",
+            "Baby Got Back"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff10",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American singer and songwriter released the song 'Like a Virgin'?",
+          "correct": "Madonna",
+          "options": [
+            "Whitney Houston",
+            "Cyndi Lauper",
+            "Madonna",
+            "Kylie Minogue"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950d4b",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which band was Niall Horan a member of?",
+          "correct": "One Direction",
+          "options": ["One Direction", "NWA", "The Beatles", "Oasis"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff3a",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American musician sung 'Rock with You'?",
+          "correct": "Michael Jackson",
+          "options": [
+            "Michael Jackson",
+            "Lionel Richie",
+            "Prince",
+            "Stevie Wonder"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff51",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American singer released the song 'Wanna Be Startin' Somethin''?",
+          "correct": "Michael Jackson",
+          "options": [
+            "Michael Jackson",
+            "Stevie Wonder",
+            "Prince",
+            "Lionel Richie"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe83",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which American singer, songwriter, and actress released the song 'Poker Face'?",
+          "correct": "Lady Gaga",
+          "options": ["Madonna", "Lady Gaga", "Hikaru Utada", "Drake"]
+        },
+        {
+          "id": "622a1c387cc59eab6f950b4e",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "What was the name of Bob Marley's band?",
+          "correct": "Bob Marley and the Wailers",
+          "options": [
+            "Bob Marley and his Blues Band",
+            "Bob Marley and the Wailers",
+            "The Swinging Bobs",
+            "Bob Marley and the Bombs"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950d4e",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which band did Zayn Malik belong to?",
+          "correct": "One Direction",
+          "options": [
+            "The Beatles",
+            "Backstreet Boys",
+            "Talking Heads",
+            "One Direction"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950d31",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which English rock band released the song 'A Hard Day's Night'?",
+          "correct": "The Beatles",
+          "options": [
+            "The Who",
+            "The Rolling Stones",
+            "The Beatles",
+            "The Kinks"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950d5a",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Which band includes 'Paul Simon'?",
+          "correct": "Simon & Garfunkel",
+          "options": [
+            "Buffalo Springfield",
+            "Simon & Garfunkel",
+            "The Mamas & the Papas",
+            "The Byrds"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fd6a",
+          "category": "music",
+          "difficulty": "easy",
+          "question": "Whose Autobiography Was Entitled 'Moonwalk'?",
+          "correct": "Michael Jackson",
+          "options": ["Elton John", "Usher", "Michael Jackson", "Kylie Minogue"]
+        }
+      ],
+      "normal": [
+        {
+          "id": "622a1c357cc59eab6f94ff71",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which Band Had A 1985 Number One Hit With The Single “I Wanna Know What Love Is”?",
+          "correct": "Foreigner",
+          "options": ["Survivor", "Foreigner", "Loverboy", "REO Speedwagon"]
+        },
+        {
+          "id": "622a1c387cc59eab6f950b50",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which British music duo released the song 'Sweet Dreams (Are Made of This)'?",
+          "correct": "Eurythmics",
+          "options": ["Feeder", "Eurythmics", "Uriah Heep", "Level 42"]
+        },
+        {
+          "id": "622a1c397cc59eab6f950dc3",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which band includes 'Billie Joe Armstrong'?",
+          "correct": "Green Day",
+          "options": [
+            "Animal Collective",
+            "Mastodon",
+            "Green Day",
+            "Fall Out Boy"
+          ]
+        },
+        {
+          "id": "636a5283990390307063f3a1",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which song, originally recorded by Édith Piaf, was later covered by Grace Jones?",
+          "correct": "La Vie En Rose",
+          "options": [
+            "La Vie En Rose",
+            "I Will Always Love You",
+            "Borderline",
+            "Girls Just Want to Have Fun"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbb7",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which song begins with the lyrics: \"Somebody once told me / The world is gonna roll me...\"?",
+          "correct": "\"All Star\" by Smash Mouth",
+          "options": [
+            "\"All Star\" by Smash Mouth",
+            "\"You're So Vain\" by Carly Simon",
+            "\"I Will Always Love You\" by Whitney Houston",
+            "\"Let's Go Crazy\" by Prince and The Revolution"
+          ]
+        },
+        {
+          "id": "622a1c387cc59eab6f950b36",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which English rock band released the song 'Every Breath You Take'?",
+          "correct": "The Police",
+          "options": ["Level 42", "The Police", "Ultravox", "Wings"]
+        },
+        {
+          "id": "6266bc59ff2394bd44dee002",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "What type of instrument is a harpsichord?",
+          "correct": "Stringed",
+          "options": ["Percussion", "Woodwind", "Stringed", "Brass"]
+        },
+        {
+          "id": "622a1c387cc59eab6f950b08",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which band had Morrissey as its frontman?",
+          "correct": "The Smiths",
+          "options": ["The Smiths", "The Cure", "Nirvana", "Sex Pistols"]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbbb",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which song begins with the lyrics: \"Old man, look at my life / I'm a lot like you were...\"?",
+          "correct": "\"Old Man\" by Neil Young",
+          "options": [
+            "\"Jumpin', Jumpin'\" by Destiny's Child",
+            "\"Let's Go Crazy\" by Prince and The Revolution",
+            "\"Old Man\" by Neil Young",
+            "\"What I Got\" by Sublime"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff30",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which American singer released the song 'You Rock My World'?",
+          "correct": "Michael Jackson",
+          "options": [
+            "Stevie Wonder",
+            "Michael Jackson",
+            "Lionel Richie",
+            "Prince"
+          ]
+        },
+        {
+          "id": "6461403f4d46e537ca8cd9a9",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "What is the name of the smallest member of the flute family?",
+          "correct": "Piccolo",
+          "options": ["Contrabass Flute", "Piccolo", "Clarinet", "Recorder"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe9f",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which singer released the studio album 'Anti'?",
+          "correct": "Rihanna",
+          "options": ["Rihanna", "Beyoncé", "Ciara", "Alicia Keys"]
+        },
+        {
+          "id": "62506471e12f6dec240bdfb3",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Who had a hit in 1992 with Jump Around?",
+          "correct": "House of Pain",
+          "options": [
+            "Digable Planets",
+            "House of Pain",
+            "Haddaway",
+            "Brownsville Station"
+          ]
+        },
+        {
+          "id": "647c9856f89e0968cfbc1a3a",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which music had a hit with a song containing the lyrics \"Just like me, they long to be close to you\"?",
+          "correct": "The Carpenters",
+          "options": [
+            "The White Stripes",
+            "Salt-N-Pepa",
+            "The Carpenters",
+            "Sonny & Cher"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950cab",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which English rock band released the song 'Comfortably Numb'?",
+          "correct": "Pink Floyd",
+          "options": [
+            "Pink Floyd",
+            "The Alan Parsons Project",
+            "Wings",
+            "Rudimental"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950d8d",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "'Flea' is a member of which band?",
+          "correct": "Red Hot Chili Peppers",
+          "options": [
+            "Journey",
+            "The Monkees",
+            "Black Flag",
+            "Red Hot Chili Peppers"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fe81",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which American singer, songwriter, and actress released the song 'Alejandro'?",
+          "correct": "Lady Gaga",
+          "options": ["Lady Gaga", "Drake", "Madonna", "Hikaru Utada"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ffcf",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which Pair Had The Best Selling Album In Both 1970 And 1971?",
+          "correct": "Simon & Garfunkel",
+          "options": [
+            "Hall & Oates",
+            "Ike & Tina Turner",
+            "Simon & Garfunkel",
+            "The Everley Brothers"
+          ]
+        },
+        {
+          "id": "625064c9e12f6dec240bdfcd",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "What song did Billy Ray Cyrus have a hit with in 1992?",
+          "correct": "Achy Breaky Heart",
+          "options": [
+            "Rock Me Amedeus",
+            "Achy Breaky Heart",
+            "Lovefool",
+            "Barbie Girl"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbbc",
+          "category": "music",
+          "difficulty": "medium",
+          "question": "Which song begins with the lyrics: \"As I walk through the valley of the shadow of death / I take a look at my life and realize there's not much left...\"?",
+          "correct": "\"Gangsta's Paradise\" by Coolio feat. L.V.",
+          "options": [
+            "\"Rapper's Delight\" by Sugarhill Gang",
+            "\"Welcome to the Black Parade\" by My Chemical Romance",
+            "\"I Write Sins Not Tragedies\" by Panic! at the Disco",
+            "\"Gangsta's Paradise\" by Coolio feat. L.V."
+          ]
+        }
+      ],
+      "hard": [
+        {
+          "id": "625064d3e12f6dec240bdfd0",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "T'Pau had a one hit wonder in 1987 with which song?",
+          "correct": "Heart And Soul",
+          "options": [
+            "Electric Avenue",
+            "Heart And Soul",
+            "Smokin' in the Boys Room",
+            "Seasons in the Sun"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff58",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American musician wrote the song 'All Along the Watchtower'?",
+          "correct": "Bob Dylan",
+          "options": [
+            "Bruce Springsteen",
+            "Bob Dylan",
+            "Neil Young",
+            "Tom Petty"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fde5",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American singer released the song 'I'm Not a Girl, Not Yet a Woman'?",
+          "correct": "Britney Spears",
+          "options": [
+            "Britney Spears",
+            "Jessica Simpson",
+            "Mandy Moore",
+            "Christina Aguilera"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fd77",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Who Wrote \"The Firebird Suite\" & \"The Ebony Concerto\"? ",
+          "correct": "Igor Stravinsky",
+          "options": [
+            "Joseph Haydn",
+            "Franz Schubert",
+            "Gustav Holst",
+            "Igor Stravinsky"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950c67",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American rock band released the studio album 'The Hunting Party'?",
+          "correct": "Linkin Park",
+          "options": [
+            "Alice in Chains",
+            "System of a Down",
+            "Hollywood Undead",
+            "Linkin Park"
+          ]
+        },
+        {
+          "id": "6250645ce12f6dec240bdfad",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Brownsville Station had a one hit wonder in 1973 with which song?",
+          "correct": "Smokin' in the Boys Room",
+          "options": [
+            "Mickey",
+            "Me And Mrs. Jones",
+            "Smokin' in the Boys Room",
+            "Don't Wanna Fall in Love"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ff56",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which musician has famously performed over 3,000 shows in their 'Never Ending Tour'?",
+          "correct": "Bob Dylan",
+          "options": [
+            "Tom Petty",
+            "Neil Young",
+            "Bob Dylan",
+            "Bruce Springsteen"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94ffb8",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "In 1998 David Trimble & John Hume Joined Which Band On A Belfast Stage In Support Of The Good Friday Peace Agreement?",
+          "correct": "Coldplay",
+          "options": ["Coldplay", "The Rolling Stones", "U2", "Feeder"]
+        },
+        {
+          "id": "622a1c397cc59eab6f950c0e",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American progressive metal band released the studio album 'Metropolis Pt. 2: Scenes from a Memory'?",
+          "correct": "Dream Theater",
+          "options": [
+            "Dream Theater",
+            "Fates Warning",
+            "Queensrÿche",
+            "Symphony X"
+          ]
+        },
+        {
+          "id": "62506496e12f6dec240bdfbe",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Digable Planets had a one hit wonder in 1993 with which song?",
+          "correct": "Rebirth of Slick (Cool Like Dat)",
+          "options": [
+            "Rebirth of Slick (Cool Like Dat)",
+            "It Takes Two",
+            "Don't Worry Be Happy",
+            "Tainted Love"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94febc",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American singer, actress and record producer released the song 'Déjà Vu'?",
+          "correct": "Beyoncé",
+          "options": ["Beyoncé", "Ciara", "Rihanna", "Alicia Keys"]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fd6f",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Whose 1973 Album Was Titled \"Jonathan Livingston Seagull\"?",
+          "correct": "Neil Diamond",
+          "options": [
+            "Paul McCartney",
+            "Leonard Cohen",
+            "Neil Diamond",
+            "David Bowie"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f950374",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Who Released The 70's Album Entitled 'Tea for the Tillerman'?",
+          "correct": "Cat Stevens",
+          "options": [
+            "Joni Mitchell",
+            "Cat Stevens",
+            "The Ramones",
+            "Patti Smith"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fb98",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which song begins with the lyrics: \"This beat is automatic, supersonic, hypnotic, funky fresh.\"?",
+          "correct": "\"1,2 Step\" by Ciara and Missy Elliott",
+          "options": [
+            "\"Fergalicious\" by Fergie and will.i.am.",
+            "\"1,2 Step\" by Ciara and Missy Elliott",
+            "\"I'm Real (Murder Remix) by Jennifer Lopez and Ja Rule",
+            "\"Hooked on a Feeling\" by B.J. Thomas"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fd56",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "William Michael Albert Broad Is The Real Name Of Which Singer?",
+          "correct": "Billy Idol",
+          "options": [
+            "Billy Idol",
+            "Bill Withers",
+            "Bill Bailey",
+            "Billy Eilish"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950c13",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American progressive metal band released the album 'Black Clouds & Silver Linings'?",
+          "correct": "Dream Theater",
+          "options": [
+            "Fates Warning",
+            "Symphony X",
+            "Dream Theater",
+            "Queensrÿche"
+          ]
+        },
+        {
+          "id": "622a1c397cc59eab6f950bf8",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which American rock band released the studio album 'The Soft Parade'?",
+          "correct": "The Doors",
+          "options": [
+            "The Doors",
+            "Jefferson Airplane",
+            "The Animals",
+            "The Byrds"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f95039a",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Who Released The 70's Album Entitled \"Innervisions\"?",
+          "correct": "Stevie Wonder",
+          "options": [
+            "Stevie Nicks",
+            "Stevie Winwood",
+            "Stevie Ray Vaughan",
+            "Stevie Wonder"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f95021a",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Who released the album 'Pies Descalzos'?",
+          "correct": "Shakira ",
+          "options": [
+            "Shakira ",
+            "Enrique Iglesias",
+            "Jennifer Lopez",
+            "Pitbull"
+          ]
+        },
+        {
+          "id": "622a1c357cc59eab6f94fd97",
+          "category": "music",
+          "difficulty": "hard",
+          "question": "Which Singing Diva Flopped At The Box Office With Her Debut Movie “Glitter”?",
+          "correct": "Mariah Carey",
+          "options": [
+            "Mariah Carey",
+            "Rihanna",
+            "Beyonce",
+            "Christina Aguilera"
+          ]
+        }
+      ]
+    },
+    "film_and_tv": {
+      "easy": [
+        {
+          "id": "625698689da29df7b05f7285",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Chris Evans plays the role of which character in the Marvel Cinematic Universe?",
+          "correct": "Captain America",
+          "options": ["The Collector", "Captain America", "Thor", "Spiderman"]
+        },
+        {
+          "id": "62573f899da29df7b05f73a1",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "What is the plot of the movie Star Wars?",
+          "correct": "A young man joins forces with an old man, a cocky pilot, a beast and two robots to save the galaxy.",
+          "options": [
+            "A young man joins forces with an old man, a cocky pilot, a beast and two robots to save the galaxy.",
+            "After two male musicians witness a murder, they flee in an all-female band disguised as women.",
+            "Violence and mayhem ensue after a man stumbles upon more than two million dollars.",
+            "The son of a city's mastermind falls in love with a working-class prophet."
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f9507c5",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which actor has starred in films including Star Wars and Blade Runner?",
+          "correct": "Harrison Ford",
+          "options": [
+            "John Cusack",
+            "Brad Pitt",
+            "Michael Fassbender",
+            "Harrison Ford"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f9501fe",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which director directed Pulp Fiction?",
+          "correct": "Quentin Tarantino",
+          "options": [
+            "Steven Spielberg",
+            "Martin Scorsese",
+            "Woody Allen",
+            "Quentin Tarantino"
+          ]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f951782",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which movie had a device known as a flux capacitor?",
+          "correct": "Back to the Future",
+          "options": [
+            "Star Wars",
+            "Jurassic Park",
+            "Back to the Future",
+            "The Goonies"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f8bb",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which actor played the role of Indiana Jones in Raiders of the Lost Ark?",
+          "correct": "Harrison Ford",
+          "options": [
+            "Al Pacino",
+            "Harrison Ford",
+            "Samuel L. Jackson",
+            "Marlon Brando"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbdb",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which of these quotes is from the film 'Pirates of the Caribbean: The Curse of the Black Pearl'?",
+          "correct": "\"This is the day you will always remember as the day you almost caught Captain Jack Sparrow!\"",
+          "options": [
+            "\"This is the day you will always remember as the day you almost caught Captain Jack Sparrow!\"",
+            "\"My precious.\"",
+            "\"Keep your friends close, but your enemies closer.\"",
+            "\"I'll get you, my pretty, and your little dog, too!\""
+          ]
+        },
+        {
+          "id": "65056eb27a97013de78b533e",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Who was the director of the film \"Citizen Kane\"?",
+          "correct": "Orson Welles",
+          "options": [
+            "Billy Wilder",
+            "Orson Welles",
+            "Howard Hawks",
+            "Carol Reed"
+          ]
+        },
+        {
+          "id": "625740839da29df7b05f73e3",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "What is the plot of the movie Finding Nemo?",
+          "correct": "After his son is captured and taken to Sydney, a clownfish sets out on a journey to bring him home.",
+          "options": [
+            "After his son is captured and taken to Sydney, a clownfish sets out on a journey to bring him home.",
+            "A high school student is sent thirty years into the past in a time-traveling car.",
+            "A prince cursed to spend his days as a monster sets out to regain his humanity.",
+            "After he becomes a quadriplegic, an aristocrat hires a young man to be his caregiver."
+          ]
+        },
+        {
+          "id": "62573efd9da29df7b05f7380",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "What is the plot of the movie Schindler's List?",
+          "correct": "A man becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+          "options": [
+            "In order to power the city, beasts have to scare children so that they scream.",
+            "King Arthur and his Knights embark on a search for a religious relic.",
+            "A girl wanders into a world ruled by gods, witches, and spirits, where humans are changed into beasts.",
+            "A man becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+          ]
+        },
+        {
+          "id": "625698509da29df7b05f727f",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which actor plays the role of Nick Fury in the Marvel Cinematic Universe?",
+          "correct": "Samuel L. Jackson",
+          "options": [
+            "Paul Rudd",
+            "Clark Gregg",
+            "Samuel L. Jackson",
+            "Tom Hiddleston"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbeb",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which of these quotes is from the film 'Snakes on a Plane'?",
+          "correct": "\"I have had it with these mother—— snakes on this mother—— plane!\"",
+          "options": [
+            "\"Tell 'em to go out there with all they got and win just one for the Gipper.\"",
+            "\"Oh, Jerry, don't let's ask for the moon. We have the stars.\"",
+            "\"I have had it with these mother—— snakes on this mother—— plane!\"",
+            "\"Not my tempo.\""
+          ]
+        },
+        {
+          "id": "63d9530a168979b94b2e4f85",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which popular '90s show featured the character of Ross Geller?",
+          "correct": "Friends",
+          "options": ["The Simpsons", "Seinfeld", "Friends", "Frasier"]
+        },
+        {
+          "id": "646b3ec40361c7fb32d6b6cb",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "What color are Smurfs?",
+          "correct": "Blue",
+          "options": ["Green", "Red", "Blue", "Yellow"]
+        },
+        {
+          "id": "625698849da29df7b05f728c",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "In the Marvel Cinematic Universe, which character is played by Tom Holland?",
+          "correct": "Spiderman",
+          "options": ["Iron Man", "Hawkeye", "Obadiah Stane", "Spiderman"]
+        },
+        {
+          "id": "625698719da29df7b05f7287",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "In the Marvel Cinematic Universe, which character is played by Tom Hiddleston?",
+          "correct": "Loki",
+          "options": ["Black Panther", "Spiderman", "Iron Man", "Loki"]
+        },
+        {
+          "id": "622a1c377cc59eab6f95072e",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which actor has starred in films including Inception and The Revenant?",
+          "correct": "Leonardo DiCaprio",
+          "options": [
+            "Ralph Fiennes",
+            "Kiefer Sutherland",
+            "Brian Cox",
+            "Leonardo DiCaprio"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f9501f0",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which director directed Interstellar?",
+          "correct": "Christopher Nolan",
+          "options": [
+            "Woody Allen",
+            "Martin Scorsese",
+            "Christopher Nolan",
+            "Steven Spielberg"
+          ]
+        },
+        {
+          "id": "64dfa27da6681754ea052baf",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "In the Lion King, what sort of animal is Pumbaa?",
+          "correct": "A warthog",
+          "options": ["An elephant", "A rhinoceros", "A lion", "A warthog"]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f914",
+          "category": "film_and_tv",
+          "difficulty": "easy",
+          "question": "Which film contains the character 'Hannibal Lecter'?",
+          "correct": "The Silence of the Lambs",
+          "options": [
+            "A Nightmare on Elm Street",
+            "The Silence of the Lambs",
+            "Taxi Driver",
+            "Casablanca"
+          ]
+        }
+      ],
+      "normal": [
+        {
+          "id": "622a1c377cc59eab6f95075d",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which actor has featured in films including Rogue One and Black Panther?",
+          "correct": "Forest Whitaker",
+          "options": [
+            "Forest Whitaker",
+            "Shah Rukh Khan",
+            "Dan Aykroyd",
+            "Christian Bale"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fc00",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which of these quotes is from the film '2001: A Space Odyssey'?",
+          "correct": "\"Open the pod bay doors, please, HAL.\"",
+          "options": [
+            "\"I’m the guy who does his job. You must be the other guy.\"",
+            "\"Forget it, Jake, it's Chinatown.\"",
+            "\"Open the pod bay doors, please, HAL.\"",
+            "\"I love lamp.\""
+          ]
+        },
+        {
+          "id": "6256f9f19da29df7b05f72ed",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Name the movie that matches the following plot summary: 'An aspiring musician enters the Land of the Dead to find his great-great-grandfather, a legendary singer.'",
+          "correct": "Coco",
+          "options": ["Aliens", "The Usual Suspects", "Gone Girl", "Coco"]
+        },
+        {
+          "id": "645c9f8642ea81e2554c5f33",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which country produces more theatrical feature films every year than any other country?",
+          "correct": "India",
+          "options": ["China", "United States", "France", "India"]
+        },
+        {
+          "id": "622a1c377cc59eab6f9506da",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which actor has starred in both Gladiator and A Beautiful Mind?",
+          "correct": "Russell Crowe",
+          "options": [
+            "Russell Crowe",
+            "John Wayne",
+            "Seth Rogen",
+            "Ron Perlman"
+          ]
+        },
+        {
+          "id": "625740439da29df7b05f73d0",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Name the movie that matches the following plot summary: 'Eddy has a week to pay back £500,000 after losing a poker game to a powerful local mobster.'",
+          "correct": "Lock, Stock and Two Smoking Barrels",
+          "options": [
+            "The Deer Hunter",
+            "Dead Poets Society",
+            "Lock, Stock and Two Smoking Barrels",
+            "La Haine"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbd3",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which of these quotes is from the film 'Captain Phillips'?",
+          "correct": "\"Look at me. I’m the captain now.\"",
+          "options": [
+            "\"Look at me. I’m the captain now.\"",
+            "\"A martini. Shaken, not stirred.\"",
+            "\"I know who I am. I’m the dude playing a dude disguised as another dude!\"",
+            "\"That’s my secret, Captain: I’m always angry.\""
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f950719",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which actress has played roles in both American Horror Story and Titanic?",
+          "correct": "Kathy Bates",
+          "options": [
+            "Helen Mirren",
+            "Maggie Smith",
+            "Kate Winslet",
+            "Kathy Bates"
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f9505c2",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which actor has starred in films including Fight Club and Suicide Squad?",
+          "correct": "Jared Leto",
+          "options": [
+            "Kenneth Branagh",
+            "Jared Leto",
+            "Luke Evans",
+            "Peter Cushing"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f9503e4",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "What Family Live At 1313 Cemetary Lane?",
+          "correct": "The Adams Family",
+          "options": [
+            "The Simpsons",
+            "The Adams Family",
+            "The Von Trapps",
+            "The Flintstones"
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f9506ff",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which Hollywood actor has starred in films including Guardians of the Galaxy and American Hustle?",
+          "correct": "Bradley Cooper",
+          "options": [
+            "Hugh Jackman",
+            "Ryan Reynolds",
+            "Jim Carrey",
+            "Bradley Cooper"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f9501e5",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which director directed Titanic?",
+          "correct": "James Cameron",
+          "options": [
+            "Martin Scorsese",
+            "Woody Allen",
+            "James Cameron",
+            "Steven Spielberg"
+          ]
+        },
+        {
+          "id": "6257406e9da29df7b05f73dd",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Name the movie that matches the following plot summary: 'Violence and mayhem ensue after a man stumbles upon more than two million dollars.'",
+          "correct": "No Country for Old Men",
+          "options": [
+            "Aliens",
+            "Pulp Fiction",
+            "No Country for Old Men",
+            "Hacksaw Ridge"
+          ]
+        },
+        {
+          "id": "625740389da29df7b05f73cd",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Name the movie that matches the following plot summary: 'After his father goes missing, a professor finds himself in a search for the Holy Grail.'",
+          "correct": "Indiana Jones and the Last Crusade",
+          "options": [
+            "The Green Mile",
+            "Indiana Jones and the Last Crusade",
+            "Spotlight",
+            "The Godfather"
+          ]
+        },
+        {
+          "id": "622a1c367cc59eab6f95039c",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which series of films features a habitual serial killer called Michael Myers",
+          "correct": "Halloween",
+          "options": ["Scream", "Friday the 13th", "IT", "Halloween"]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbc4",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which of these quotes is from the film 'Gladiator'?",
+          "correct": "\"Are you not entertained?\"",
+          "options": [
+            "\"I'll have what she's having.\"",
+            "\"La-dee-da, la-dee-da.\"",
+            "\"Nobody puts Baby in a corner.\"",
+            "\"Are you not entertained?\""
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f8fa",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which actor played the role of Raymond Babbitt in Rain Man?",
+          "correct": "Dustin Hoffman",
+          "options": [
+            "Dustin Hoffman",
+            "Kevin Spacey",
+            "Michael Douglas",
+            "Robert Duvall"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbe7",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which of these quotes is from the film 'Tropic Thunder'?",
+          "correct": "\"I know who I am. I’m the dude playing a dude disguised as another dude!\"",
+          "options": [
+            "\"Mrs. Robinson, you're trying to seduce me. Aren't you?\"",
+            "\"I live my life a quarter mile at a time.\"",
+            "\"Not my tempo.\"",
+            "\"I know who I am. I’m the dude playing a dude disguised as another dude!\""
+          ]
+        },
+        {
+          "id": "6257402b9da29df7b05f73c9",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Name the movie that matches the following plot summary: 'A mafia enforcer and a casino executive compete against each other over a gambling empire.'",
+          "correct": "Casino",
+          "options": [
+            "The Godfather",
+            "Casino",
+            "Parasite",
+            "Eternal Sunshine of the Spotless Mind"
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f950617",
+          "category": "film_and_tv",
+          "difficulty": "medium",
+          "question": "Which actress has played the roles of Gamora in the Marvel Cinematic Universe, and of Neytiri in the Avatar films?",
+          "correct": "Zoe Saldana",
+          "options": [
+            "Rachel Weisz",
+            "Audrey Hepburn",
+            "Catherine Deneuve",
+            "Zoe Saldana"
+          ]
+        }
+      ],
+      "hard": [
+        {
+          "id": "6256992e9da29df7b05f72b7",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which actor plays the role of Ivan Vanko in the Marvel Cinematic Universe?",
+          "correct": "Mickey Rourke",
+          "options": [
+            "Mickey Rourke",
+            "Clark Gregg",
+            "Idris Elba",
+            "Vin Diesel"
+          ]
+        },
+        {
+          "id": "625fd6b9dc0dd3b72da64d06",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Aliens was released in which year?",
+          "correct": "1986",
+          "options": ["1976", "1971", "1986", "1981"]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbd7",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which of these quotes is from the film 'Mad Max: Fury Road'?",
+          "correct": "\"Oh what a day. What a lovely day!\"",
+          "options": [
+            "\"Oh what a day. What a lovely day!\"",
+            "\"Is it safe?\"",
+            "\"Mrs. Robinson, you're trying to seduce me. Aren't you?\"",
+            "\"After all, tomorrow is another day!\""
+          ]
+        },
+        {
+          "id": "625fd729dc0dd3b72da64d27",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Blade Runner was released in which year?",
+          "correct": "1982",
+          "options": ["1992", "1977", "1982", "1987"]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f93f",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which film contains the character 'Hans Beckert'?",
+          "correct": "M",
+          "options": [
+            "Apocalypse Now",
+            "M",
+            "Austin Powers: International Man of Mystery",
+            "Home Alone"
+          ]
+        },
+        {
+          "id": "622a1c3c7cc59eab6f9517d3",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which eighties sitcom featured Tom Hanks in drag on a regular basis?",
+          "correct": "Bosom Buddies",
+          "options": [
+            "Bosom Buddies",
+            "Pen Pals",
+            "Freaky Friends",
+            "Messy Mates"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbc2",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which of these quotes is from the film '12 Years a Slave'?",
+          "correct": "\"Well, I don’t want to survive. I want to live.\"",
+          "options": [
+            "\"Nobody puts Baby in a corner.\"",
+            "\"It's alive! It's alive!\"",
+            "\"Well, I don’t want to survive. I want to live.\"",
+            "\"A martini. Shaken, not stirred.\""
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f9506de",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which actress has appeared in both Pirates of the Caribbean: On Stranger Tides and All About My Mother?",
+          "correct": "Penélope Cruz",
+          "options": [
+            "Amy Adams",
+            "Uma Thurman",
+            "Cameron Diaz",
+            "Penélope Cruz"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbf6",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which of these quotes is from the film 'The Naughty Nineties'?",
+          "correct": "\"Who's on first.\"",
+          "options": [
+            "\"Hasta la vista, baby.\"",
+            "\"Who's on first.\"",
+            "\"My mother thanks you. My father thanks you. My sister thanks you. And I thank you.\"",
+            "\"I am Groot.\""
+          ]
+        },
+        {
+          "id": "622a1c377cc59eab6f950754",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which actor has featured in films including 2012 and The Color Purple?",
+          "correct": "Danny Glover",
+          "options": [
+            "Shah Rukh Khan",
+            "Dan Aykroyd",
+            "Danny Glover",
+            "Gérard Depardieu"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fb44",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which film won the Academy Award for Best Picture in 1992?",
+          "correct": "Unforgiven",
+          "options": [
+            "Unforgiven",
+            "Howards End",
+            "A Few Good Men",
+            "The Crying Game"
+          ]
+        },
+        {
+          "id": "649d6d6de3aef0a3c23f6429",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which actor received 3 Oscar nominations in one year, winning for his supporting role in \"Syriana\"?",
+          "correct": "George Clooney",
+          "options": [
+            "Leonardo DiCaprio",
+            "George Clooney",
+            "Tom Hanks",
+            "Brad Pitt"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f8e4",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which actress played the role of Phyllis Dietrichson in Double Indemnity?",
+          "correct": "Barbara Stanwyck",
+          "options": [
+            "Barbara Stanwyck",
+            "Anne Bancroft",
+            "Olivia Newton-John",
+            "Vivien Leigh"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94faf3",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Who won the 2020 Academy Award for Best Leading Actress for playing the role of Fern in Nomadland?",
+          "correct": "Frances McDormand",
+          "options": [
+            "Frances McDormand",
+            "Andra Day",
+            "Viola Davis",
+            "Vanessa Kirby"
+          ]
+        },
+        {
+          "id": "624dba33de6018633d31f6ba",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Who played the role of James Bond in You Only Live Twice?",
+          "correct": "Sean Connery",
+          "options": [
+            "Timothy Dalton",
+            "George Lazenby",
+            "Daniel Craig",
+            "Sean Connery"
+          ]
+        },
+        {
+          "id": "622a1c3b7cc59eab6f951789",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which long running sci-fi program was first aired in November 1963?",
+          "correct": "Dr Who",
+          "options": [
+            "Battlestar Galactica",
+            "Star Trek",
+            "The Twilight Zone",
+            "Dr Who"
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f8d1",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which actor played the role of Ratso Rizzo in Midnight Cowboy?",
+          "correct": "Dustin Hoffman",
+          "options": [
+            "Dustin Hoffman",
+            "Dennis Hopper",
+            "Al Pacino",
+            "Malcolm McDowell"
+          ]
+        },
+        {
+          "id": "64879d54a754bb6010f8b04c",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "What kind of creature is Spongebob Squarepants' friend Sandy?",
+          "correct": "A Squirrel",
+          "options": ["An Octopus", "A Crab", "A Starfish", "A Squirrel"]
+        },
+        {
+          "id": "622a1c347cc59eab6f94fbea",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which of these quotes is from the film 'Old School'?",
+          "correct": "\"We’re goin’ streaking!\"",
+          "options": [
+            "\"Listen to them. Children of the night. What music they make.\"",
+            "\"We’re goin’ streaking!\"",
+            "\"No wire hangers, ever!\"",
+            "\"You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?\""
+          ]
+        },
+        {
+          "id": "622a1c347cc59eab6f94f92e",
+          "category": "film_and_tv",
+          "difficulty": "hard",
+          "question": "Which film contains the character 'Howard Beale'?",
+          "correct": "Network",
+          "options": [
+            "Taxi Driver",
+            "The Lord of the Rings",
+            "Say Anything...",
+            "Network"
+          ]
+        }
+      ]
+    },
+    "sport_and_leisure": {},
+    "arts_and_literature": {},
+    "history": {},
+    "society_and_culture": {},
+    "science": {},
+    "general_knowledge": {}
+  }
+}

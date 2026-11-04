@@ -313,7 +313,6 @@ textarea::placeholder {
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
   text-align: center;
-  margin: var(--space-lg) 0;
 }
 
 /* ============================================
