@@ -58,26 +58,4 @@ h1 {
     flex-direction: column;
     gap: var(--space-sm);
   }
-
-  .quiz-card {
-    display: flex;
-    align-items: center;
-    gap: var(--space-xl);
-    margin: 0;
-  }
-
-  .quiz-card:has(.name) {
-    font-size: 0;
-  }
-
-  .quiz-card .order,
-  .quiz-card .name,
-  .quiz-card .quiz-score {
-    font-size: var(--font-size-lg);
-  }
-
-  .quiz-card .quiz-score {
-    margin: 0 0 0 auto;
-    text-align: right;
-  }
 }
