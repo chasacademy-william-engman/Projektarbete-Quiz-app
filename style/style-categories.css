@@ -59,7 +59,7 @@ h1 {
     row-gap: var(--space-2xl);
   }
   .quiz-container {
-    max-width: 1080px;
+    max-width: 900px;
   }
   .category-quiz {
     font-size: var(--font-size-lg);

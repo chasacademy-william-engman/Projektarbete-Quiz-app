@@ -1,5 +1,5 @@
 import { saveQuiz, loadQuiz } from "./storage.js";
-import { getQuestions } from "./api.js";
+import { getQuestions, getCategories } from "./api.js";
 import { formatName, capitalize, createElement } from "./helpers.js";
 import {
   DIFFICULTIES,
@@ -21,6 +21,9 @@ let selectedDifficulty = DIFFICULTIES.includes(difficultyFromUrl)
 const startLink = document.querySelector(".quiz-start-link");
 const errorText = document.querySelector(".quiz-error");
 const cardContainer = document.querySelector("#quiz-start-container");
+
+// Category image, loaded once from quizzes.json
+let categoryImage = null;
 
 // START LINK
 function setStartLoading(isLoading) {
@@ -45,7 +48,18 @@ function hideError() {
 }
 
 // RENDER
-function renderPage() {
+async function renderPage() {
+  // Load the category image once, then cache it
+  if (categoryImage === null) {
+    try {
+      const { categories } = await getCategories();
+      categoryImage = categories[category]?.image ?? "";
+    } catch (error) {
+      console.warn("Could not load category image:", error);
+      categoryImage = "";
+    }
+  }
+
   const formattedName = formatName(category);
 
   document.querySelector(".quiz-name").textContent = formattedName;
@@ -77,12 +91,10 @@ function createQuizCard(difficulty) {
   img.height = 80;
   img.alt = "";
   img.style.borderRadius = "12px";
-  img.style.background = `
-    linear-gradient(45deg, #a361f4, transparent),
-    linear-gradient(-45deg, #519ae7, transparent),
-    linear-gradient(90deg, #7daeb1, transparent),
-    linear-gradient(0deg, #7028d6, #023047)
-  `;
+  img.src = categoryImage ?? "https://placehold.co/80x80?text=Quiz";
+  img.onerror = () => {
+    img.src = "https://placehold.co/80x80?text=Quiz";
+  };
 
   const title = createElement("p", "quiz-card-desc-title", name);
 

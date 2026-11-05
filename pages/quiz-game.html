@@ -18,17 +18,19 @@
   </head>
   <body>
     <header class="page-bar">
-      <button
-        id="exit-quiz"
-        class="boton-elegante boton-elegante--light"
-        type="button"
-      >
-        Exit Quiz
-      </button>
+      <div id="quiz-nav" class="quiz-nav">
+        <button
+          id="exit-quiz"
+          class="boton-elegante boton-elegante--light"
+          type="button"
+        >
+          Exit Quiz
+        </button>
 
-      <div class="timer-container" role="timer" aria-label="Time remaining">
-        <i class="fa-regular fa-clock" aria-hidden="true"></i>
-        <time class="timer" datetime="PT1M">1:00</time>
+        <div class="timer-container" role="timer" aria-label="Time remaining">
+          <i class="fa-regular fa-clock" aria-hidden="true"></i>
+          <time class="timer" datetime="PT1M">1:00</time>
+        </div>
       </div>
     </header>
 
@@ -46,7 +48,10 @@
 
       <section class="quiz-card">
         <div class="question-banner">
-          <img src="https://placehold.co/600x200?text=Question+image" alt="" />
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5fc5c5ec9698b02c7f421436/1606972673927-WR4Q5A79T2BOH81HOKTS/WWTBAM_TitleScreen+copy.png"
+            alt=""
+          />
           <h1 class="quiz-question" id="question">
             What is the capital of Sweden?
           </h1>

@@ -1,6 +1,7 @@
 import { loadQuiz, loadScore } from "./storage.js";
 import { formatName, capitalize } from "./helpers.js";
-import { DIFFICULTY_ICONS } from "./config.js";
+import { DIFFICULTY_ICONS, POINTS } from "./config.js";
+import { fireConfetti } from "./confetti.js";
 
 const quiz = loadQuiz();
 const score = loadScore();
@@ -17,6 +18,14 @@ if (!quiz || score === null) {
     `fa-regular ${DIFFICULTY_ICONS[difficulty]}`;
 
   document.querySelector("#quiz-score").textContent = score;
+
+  // Perfect score = every question answered correctly
+  const maxScore = quiz.questions.length * POINTS[difficulty];
+  const isPerfect = score === maxScore;
+
+  if (isPerfect) {
+    fireConfetti();
+  }
 
   document.querySelector("#play-again").addEventListener("click", () => {
     window.location.href = "quiz-game.html";

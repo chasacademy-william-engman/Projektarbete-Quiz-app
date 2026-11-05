@@ -221,7 +221,7 @@ textarea::placeholder {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
-  padding: var(--space-lg);
+  padding: var(--space-lg) 0;
 }
 
 /* Card (question, result, etc.) */
@@ -403,11 +403,18 @@ textarea::placeholder {
   background-color: var(--color-purple);
   color: red;
   z-index: 100;
+  padding-inline: 20px;
+
+  .quiz-nav {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    color: #fff;
+  }
 }
 
 .page-bar__back {
   background-color: var(--color-bg-subtle);
-  position: absolute;
   left: var(--space-md);
   display: inline-flex;
   align-items: center;

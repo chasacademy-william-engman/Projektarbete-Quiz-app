@@ -1,7 +1,23 @@
 #hero {
+  background-color: #fff;
+  height: 300px;
+  margin: auto;
+  max-width: 900px;
   position: sticky;
   top: 64px;
   z-index: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background:
+      linear-gradient(to top, #3204fdba, #9907facc),
+      url(https://images.squarespace-cdn.com/content/v1/5fc5c5ec9698b02c7f421436/1606972673927-WR4Q5A79T2BOH81HOKTS/WWTBAM_TitleScreen+copy.png)
+        no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
   .card-title {
     color: var(--color-text-inverse);
@@ -36,10 +52,15 @@
 }
 
 #quiz-title {
-  width: 95%;
+  background-color: #fff;
+  position: sticky;
+  width: 100%;
+  max-width: 900px;
+  top: calc(64px + 300px);
   text-align: center;
   font-weight: var(--font-weight-normal);
-  margin: var(--space-xl) auto 0 auto;
+  padding: var(--space-md) 0;
+  margin-inline: auto;
 
   h2 {
     font-weight: var(--font-weight-normal);
@@ -55,6 +76,8 @@
     text-decoration: none;
     font-weight: var(--font-weight-normal);
     width: 100%;
+    margin: auto;
+    max-width: 400px;
     padding: 6px 40px;
     border-radius: 100px;
   }
@@ -69,13 +92,15 @@
   }
 
   .quiz-start-card {
+    max-width: 900px;
     width: 100%;
     display: flex;
     gap: var(--space-lg);
     align-items: center;
     text-align: start;
     border-bottom: 1px solid var(--color-text-muted);
-    padding: var(--space-md) 0 var(--space-xl) 0;
+    padding: var(--space-md) 12px var(--space-xl) 12px;
+    margin-inline: auto;
     margin-bottom: var(--space-md);
 
     .quiz-card-desc {

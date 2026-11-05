@@ -3,6 +3,7 @@
   "createdAt": "2026-10-30T11:34:42.015Z",
   "categories": {
     "food_and_drink": {
+      "image": "https://www.escoffieronline.com/wp-content/uploads/2016/05/Colorful-cocktails-and-mocktails-in-various-glassware-paired-with-two-plates-of-food-on-a-table.-1400.webp",
       "easy": [
         {
           "id": "622a1c3b7cc59eab6f951557",
@@ -531,6 +532,7 @@
       ]
     },
     "geography": {
+      "image": "https://apuedge.com/wp-content/uploads/Iorio-human-geography.jpg",
       "easy": [
         {
           "id": "62374083cb85f7ce9e949d06",
@@ -1074,6 +1076,7 @@
       ]
     },
     "music": {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFee8MzqpsxzkMZJLltLCj_lb2YLjO4xoqoy4BYFmj3fMYRvYp9KISijc&s=10",
       "easy": [
         {
           "id": "648ee4224fe93387161138ab",
@@ -1777,6 +1780,7 @@
       ]
     },
     "film_and_tv": {
+      "image": "https://www.rollingstone.com/wp-content/uploads/2025/06/Movies-of-the-21st-Cent_Final.jpg?w=1581&h=1054&crop=1",
       "easy": [
         {
           "id": "625698689da29df7b05f7285",
@@ -2504,11 +2508,23 @@
         }
       ]
     },
-    "sport_and_leisure": {},
-    "arts_and_literature": {},
-    "history": {},
-    "society_and_culture": {},
-    "science": {},
-    "general_knowledge": {}
+    "sport_and_leisure": {
+      "image": "https://people.com/thmb/_yBLNsre2xU9pm4gLbiARsNWG5k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/PeopleSports2026ToutFINAL1-7ebec0c10b924c228c81548bb59fb7ee.jpg"
+    },
+    "arts_and_literature": {
+      "image": "https://static01.nyt.com/images/2022/12/15/arts/15best-art-books-promo/15best-art-books-promo-articleLarge.jpg?quality=75&auto=avif&disable=upscale"
+    },
+    "history": {
+      "image": "https://www.pace.cam.ac.uk/sites/default/files/styles/hero_mobile/public/2025-06/History%20courses_0.jpg.jpg?itok=DroNPrkA"
+    },
+    "society_and_culture": {
+      "image": "https://www.migrationtranslators.com.au/wp-content/uploads/2018/12/Global-nature.jpg"
+    },
+    "science": {
+      "image": "https://cdn.langeek.co/photo/49175/original/science?type=jpeg"
+    },
+    "general_knowledge": {
+      "image": "https://images-bonnier.imgix.net/files/ill/production/2019/03/26101309/clever_brain.jpg?auto=format,compress&crop=focalpoint&fp-x=0.51&fp-y=0.68&ar=1.5:1&w=922&q=80&fit=crop"
+    }
   }
 }

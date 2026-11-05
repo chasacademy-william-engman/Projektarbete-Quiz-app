@@ -5,10 +5,13 @@ const grid = document.querySelector(".category-grid");
 // const errorText = document.querySelector(".quiz-error");
 
 // CREATE CATEGORIES
-function createCategoryCard(category, levels) {
+function createCategoryCard(category, image, levels) {
   const img = createElement("img", "category-img");
-  img.src = "https://placehold.co/600x200?text=Question+image";
-  img.alt = "";
+  img.src = image ?? "https://placehold.co/600x200?text=Question+image";
+  img.alt = formatName(category);
+  img.onerror = () => {
+    img.src = "https://placehold.co/600x200?text=Question+image";
+  };
 
   const total = Object.values(levels).reduce(
     (sum, list) => sum + list.length,
@@ -34,9 +37,10 @@ async function renderCategories() {
   try {
     const { categories } = await getCategories();
 
-    const cards = Object.entries(categories).map(([category, levels]) =>
-      createCategoryCard(category, levels),
-    );
+    const cards = Object.entries(categories).map(([category, data]) => {
+      const { image, ...levels } = data;
+      return createCategoryCard(category, image, levels);
+    });
 
     grid.replaceChildren(...cards);
   } catch (error) {

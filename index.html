@@ -15,12 +15,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <script type="module" src="/script/random-quiz.js"></script>
     <title>Quiz Game</title>
   </head>
   <body>
     <header class="page-bar"></header>
+    <section class="index-hero" aria-labelledby="hero-title">
+      <div class="index-hero__content">
+        <h2 id="hero-title">Welcome to team 5 Quiz App</h2>
+        <p>Test your knowledge across categories and difficulties.</p>
+        <button type="button" class="index-hero__cta" id="random-quiz">
+          <i class="fa-solid fa-shuffle"></i> Play a random quiz
+        </button>
+      </div>
+    </section>
+
     <h1>Dashboard</h1>
+    <!-- Mobile-only random quiz button -->
+    <button type="button" class="random-quiz-mobile random-quiz">
+      <i class="fa-solid fa-shuffle"></i> Play a random quiz
+    </button>
 
     <nav>
       <ul>

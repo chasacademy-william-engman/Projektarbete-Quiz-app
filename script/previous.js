@@ -1,19 +1,23 @@
 import { loadQuiz, loadScore } from "./storage.js";
+import { getCategories } from "./api.js";
 import { formatName, capitalize, createElement } from "./helpers.js";
 
 const container = document.querySelector("#previous-quiz-container");
 
 // CREATE CARD
-function createPreviousCard(quiz, score) {
+function createPreviousCard(quiz, score, image) {
   const { category, difficulty } = quiz;
   const name = formatName(category);
 
   const img = createElement("img");
-  img.src = "https://placehold.co/80x80?text=image";
+  img.src = image ?? "https://placehold.co/80x80?text=image";
   img.width = 80;
   img.height = 80;
   img.alt = "";
   img.style.borderRadius = "12px";
+  img.onerror = () => {
+    img.src = "https://placehold.co/80x80?text=image";
+  };
 
   // Title row: name + score
   const title = createElement("p", "quiz-card-desc-title", name);
@@ -64,5 +68,13 @@ const score = loadScore();
 if (!quiz) {
   container.replaceChildren(createEmptyMessage());
 } else {
-  container.replaceChildren(createPreviousCard(quiz, score));
+  getCategories()
+    .then(({ categories }) => {
+      const image = categories[quiz.category]?.image ?? "";
+      container.replaceChildren(createPreviousCard(quiz, score, image));
+    })
+    .catch((error) => {
+      console.warn("Could not load category image:", error);
+      container.replaceChildren(createPreviousCard(quiz, score, ""));
+    });
 }
