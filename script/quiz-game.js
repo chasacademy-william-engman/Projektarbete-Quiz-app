@@ -140,33 +140,6 @@ exitModal.querySelector("[data-cancel]").addEventListener("click", () => {
   exitModal.hidden = true;
 });
 
-// Popup Modal
-function showErrorModal() {
-  const modal = document.getElementById("error-modal");
-  if (!modal) return;
-  modal.hidden = false;
-
-  let choice = false;
-
-  const close = () => {
-    modal.hidden = true;
-    choice = true;
-  };
-
-  const cancel = () => {
-    modal.hidden = true;
-  };
-
-  modal
-    .querySelector("[data-close]")
-    .addEventListener("click", close, { once: true });
-  modal
-    .querySelector("[data-cancel]")
-    .addEventListener("click", cancel, { once: true });
-
-  return choice;
-}
-
 // START
 if (!quiz) {
   window.location.href = "../index.html";
