@@ -1,14 +1,14 @@
 import { getCategories } from "./api.js";
 import { DIFFICULTIES } from "./config.js";
 
-const button = document.querySelector("#random-quiz");
-if (button) {
+const buttons = document.querySelectorAll(".random-quiz");
+
+buttons.forEach((button) => {
   button.addEventListener("click", async () => {
     button.disabled = true;
     try {
       const { categories } = await getCategories();
 
-      // Keep only categories that have at least one question in some difficulty
       const playable = [];
       for (const [category, data] of Object.entries(categories)) {
         const { image, ...levels } = data;
@@ -33,4 +33,4 @@ if (button) {
       button.disabled = false;
     }
   });
-}
+});
