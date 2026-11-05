@@ -1,12 +1,12 @@
-import { loadQuiz, loadScore } from "./storage.js";
+import { loadHistory } from "./storage.js";
 import { getCategories } from "./api.js";
 import { formatName, capitalize, createElement } from "./helpers.js";
 
 const container = document.querySelector("#previous-quiz-container");
 
 // CREATE CARD
-function createPreviousCard(quiz, score, image) {
-  const { category, difficulty } = quiz;
+function createPreviousCard(entry, image) {
+  const { category, difficulty, score } = entry;
   const name = formatName(category);
 
   const img = createElement("img");
@@ -62,19 +62,26 @@ function createEmptyMessage() {
 }
 
 // INIT
-const quiz = loadQuiz();
-const score = loadScore();
+async function render() {
+  const history = loadHistory();
 
-if (!quiz) {
-  container.replaceChildren(createEmptyMessage());
-} else {
-  getCategories()
-    .then(({ categories }) => {
-      const image = categories[quiz.category]?.image ?? "";
-      container.replaceChildren(createPreviousCard(quiz, score, image));
-    })
-    .catch((error) => {
-      console.warn("Could not load category image:", error);
-      container.replaceChildren(createPreviousCard(quiz, score, ""));
-    });
+  if (history.length === 0) {
+    container.replaceChildren(createEmptyMessage());
+    return;
+  }
+
+  let categories = {};
+  try {
+    ({ categories } = await getCategories());
+  } catch (error) {
+    console.warn("Could not load category images:", error);
+  }
+
+  const cards = history.map((entry) =>
+    createPreviousCard(entry, categories[entry.category]?.image ?? ""),
+  );
+
+  container.replaceChildren(...cards);
 }
+
+render();

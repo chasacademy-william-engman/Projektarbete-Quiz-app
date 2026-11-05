@@ -1,5 +1,7 @@
 const QUIZ_KEY = "quiz";
 const SCORE_KEY = "score";
+const HISTORY_KEY = "quiz-history";
+const HISTORY_LIMIT = 50;
 
 // Shared helpers
 function save(key, value) {
@@ -40,4 +42,21 @@ export function loadScore() {
 
 export function clearScore() {
   remove(SCORE_KEY);
+}
+
+// HISTORY
+export function loadHistory() {
+  return load(HISTORY_KEY) ?? [];
+}
+
+export function addToHistory(entry) {
+  const history = loadHistory();
+  history.unshift(entry); // newest first
+  if (history.length > HISTORY_LIMIT) history.length = HISTORY_LIMIT;
+  save(HISTORY_KEY, history);
+  return history;
+}
+
+export function clearHistory() {
+  remove(HISTORY_KEY);
 }

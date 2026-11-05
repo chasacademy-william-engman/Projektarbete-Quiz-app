@@ -1,4 +1,10 @@
-import { loadQuiz, loadScore, saveScore, clearQuiz } from "./storage.js";
+import {
+  loadQuiz,
+  loadScore,
+  saveScore,
+  clearQuiz,
+  addToHistory,
+} from "./storage.js";
 import { POINTS, SECONDS_PER_QUESTION, ANSWER_DELAY } from "./config.js";
 import { shuffle, formatTime, createElement } from "./helpers.js";
 
@@ -87,6 +93,15 @@ function nextQuestion() {
 function endQuiz() {
   clearInterval(timer);
   saveScore(score);
+
+  addToHistory({
+    category: quiz.category,
+    difficulty: quiz.difficulty,
+    score,
+    total: totalQuestions,
+    playedAt: Date.now(),
+  });
+
   window.location.href = "result.html";
 }
 
@@ -151,10 +166,6 @@ function showErrorModal() {
 
   return choice;
 }
-
-// function prettifyName(name) {
-//  return name.replace(/[-_]+/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-// }
 
 // START
 if (!quiz) {
