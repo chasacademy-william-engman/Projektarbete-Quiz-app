@@ -21,7 +21,7 @@ export const DIFFICULTY_ICONS = {
 };
 
 // DATA SOURCES
-export const CATEGORIES_URL = "../data/quizzes.json";
+export const CATEGORIES_URL = new URL("../data/quizzes.json", import.meta.url);
 export const API_URL = "https://the-trivia-api.com/v2/questions";
 
 // Our difficulty names -> The Trivia API's names
