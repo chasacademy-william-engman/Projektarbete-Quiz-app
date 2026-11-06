@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Test your knowledge with Team 5 Quiz App. Play quizzes across categories and difficulty levels, check the scoreboard, or replay past quizzes."
+    />
 
     <link rel="stylesheet" href="/style/base.css" />
     <link rel="stylesheet" href="/style/style-start-quiz.css" />
@@ -21,85 +25,61 @@
   </head>
   <body>
     <header class="page-bar">
-      <div class="quiz-nav">
+      <nav class="quiz-nav">
         <a
           href="./categories.html"
           class="page-bar__back"
-          aria-label="Back to dashboard"
+          aria-label="Back to categories"
         >
           <span aria-hidden="true"
             ><i class="fa-solid fa-arrow-left-long"></i
           ></span>
         </a>
         <span>Back to categories</span>
-      </div>
+      </nav>
     </header>
 
     <section id="hero">
-      <!-- placeholder image -->
-      <img alt="" />
+      <img src="https://placehold.co/600x200?text=image" alt="" />
+      <span class="hero-overlay" aria-hidden="true"></span>
+      <!-- placeholder image (decorative: the title beside it says what it is) -->
 
       <div class="card-title">
-        <h1 class="quiz-name"></h1>
+        <h1 class="quiz-name">Loading quiz…</h1>
         <p class="quiz-subtext"></p>
         <span class="quiz-difficulty"
-          ><i class="fa-regular fa-face-smile"></i
+          ><i class="fa-regular fa-face-smile" aria-hidden="true"></i
         ></span>
       </div>
     </section>
 
-    <section id="quiz-title">
+    <div id="quiz-title">
       <a href="./quiz-game.html" class="boton-elegante quiz-start-link">
-        <i class="fa-solid fa-play"></i> Start
+        <i class="fa-solid fa-play" aria-hidden="true"></i> Start quiz
       </a>
-      <p class="quiz-error" role="alert"></p>
-    </section>
+      <p class="quiz-error" role="alert" hidden></p>
+    </div>
 
-    <section id="quiz-start-container">
-      <button class="quiz-start-card">
+    <div id="quiz-start-container">
+      <button class="quiz-start-card" type="button" aria-pressed="false">
         <!-- placeholder image -->
         <img
           width="80"
           height="80"
-          style="
-            border-radius: 12px;
-            background:
-              linear-gradient(45deg, #a361f4, transparent),
-              linear-gradient(-45deg, #519ae7, transparent),
-              linear-gradient(90deg, #7daeb1, transparent),
-              linear-gradient(0deg, #7028d6, #023047);
-          "
+          src="https://placehold.co/80x80?text=image"
+          alt=""
         />
-        <div class="quiz-card-desc">
-          <p class="quiz-card-desc-title">Pineapple</p>
-          <div>
-            <p><span>Fruits</span> • <span>Hard</span></p>
-            <p>Take this quiz about pineapples</p>
-          </div>
-        </div>
+        <span class="quiz-card-desc">
+          <span class="quiz-card-desc-title">Pineapple</span>
+          <br />
+          <span>
+            <span class="quiz-card-meta"
+              ><span>Fruits</span> • <span>Hard</span></span
+            ><br />
+            <span class="quiz-card-text">Take this quiz about pineapples</span>
+          </span>
+        </span>
       </button>
-      <button class="quiz-start-card">
-        <!-- placeholder image -->
-        <img
-          width="80"
-          height="80"
-          style="
-            border-radius: 12px;
-            background:
-              linear-gradient(45deg, #a361f4, transparent),
-              linear-gradient(-45deg, #519ae7, transparent),
-              linear-gradient(90deg, #7daeb1, transparent),
-              linear-gradient(0deg, #7028d6, #023047);
-          "
-        />
-        <div class="quiz-card-desc">
-          <p class="quiz-card-desc-title">Pineapple</p>
-          <div>
-            <p><span>Fruits</span> • <span>Hard</span></p>
-            <p>Take this quiz about pineapples</p>
-          </div>
-        </div>
-      </button>
-    </section>
+    </div>
   </body>
 </html>

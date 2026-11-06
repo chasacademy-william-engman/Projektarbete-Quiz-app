@@ -15,6 +15,7 @@ function createPreviousCard(entry, image) {
   img.height = 80;
   img.alt = "";
   img.style.borderRadius = "12px";
+  img.style.objectFit = "cover";
   img.onerror = () => {
     img.src = "https://placehold.co/80x80?text=image";
   };
@@ -40,14 +41,11 @@ function createPreviousCard(entry, image) {
     `Take this quiz about ${name.toLowerCase()}`,
   );
 
-  const info = createElement("div", "", meta, text);
+  const info = createElement("div", "quiz-card-info", meta, text);
   const desc = createElement("div", "quiz-card-desc", titleContainer, info);
 
-  const card = createElement("button", "previous-quiz-card", img, desc);
-  card.type = "button";
-  card.addEventListener("click", () => {
-    window.location.href = `start-quiz.html?category=${category}&difficulty=${difficulty}`;
-  });
+  const card = createElement("a", "previous-quiz-card", img, desc);
+  card.href = `start-quiz.html?category=${category}&difficulty=${difficulty}`;
 
   return card;
 }

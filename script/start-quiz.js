@@ -31,9 +31,9 @@ function setStartLoading(isLoading) {
   startLink.setAttribute("aria-disabled", String(isLoading));
 
   if (isLoading) {
-    startLink.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Loading...`;
+    startLink.innerHTML = `<i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> Loading...`;
   } else {
-    startLink.innerHTML = `<i class="fa-solid fa-play"></i> Start`;
+    startLink.innerHTML = `<i class="fa-solid fa-play" aria-hidden="true"></i> Start quiz`;
   }
 }
 
@@ -70,6 +70,7 @@ async function renderPage() {
     "i",
     `fa-regular ${DIFFICULTY_ICONS[selectedDifficulty]}`,
   );
+  difficultyIcon.setAttribute("aria-hidden", "true");
 
   document
     .querySelector(".quiz-difficulty")
@@ -77,6 +78,12 @@ async function renderPage() {
       difficultyIcon,
       `Difficulty - ${capitalize(selectedDifficulty)}`,
     );
+
+  // Hero image: decorative, the title beside it names the quiz
+  const heroImg = document.querySelector("#hero img");
+  if (heroImg && categoryImage) {
+    heroImg.src = categoryImage;
+  }
 
   renderQuizCards();
 
@@ -91,31 +98,46 @@ function createQuizCard(difficulty) {
   img.height = 80;
   img.alt = "";
   img.style.borderRadius = "12px";
-  img.src = categoryImage ?? "https://placehold.co/80x80?text=Quiz";
+  img.src = categoryImage || "https://placehold.co/80x80?text=Quiz";
+  img.style.objectFit = "cover";
   img.onerror = () => {
     img.src = "https://placehold.co/80x80?text=Quiz";
   };
 
-  const title = createElement("p", "quiz-card-desc-title", name);
+  const title = createElement(
+    "span",
+    "quiz-card-desc-title",
+    name,
+    createElement("br"),
+  );
 
   const categorySpan = createElement("span", "", name);
   const difficultySpan = createElement("span", "", capitalize(difficulty));
-  const meta = createElement("p", "", categorySpan, " • ", difficultySpan);
+  const meta = createElement(
+    "span",
+    "quiz-card-meta",
+    categorySpan,
+    " • ",
+    difficultySpan,
+  );
   const text = createElement(
-    "p",
-    "",
+    "span",
+    "quiz-card-text",
     `Take this quiz about ${name.toLowerCase()}`,
   );
 
-  const info = createElement("div", "", meta, text);
-  const desc = createElement("div", "quiz-card-desc", title, info);
+  const info = createElement("span", "", meta, createElement("br"), text);
+  const desc = createElement("span", "quiz-card-desc", title, info);
 
   const card = createElement("button", "quiz-start-card", img, desc);
   card.type = "button";
 
-  if (difficulty === selectedDifficulty) {
+  // Toggle-style button: aria-pressed tells screen readers which is selected
+  const isSelected = difficulty === selectedDifficulty;
+  card.setAttribute("aria-pressed", String(isSelected));
+
+  if (isSelected) {
     card.classList.add("selected");
-    card.disabled = true;
   } else {
     card.addEventListener("click", () => {
       selectedDifficulty = difficulty;

@@ -105,10 +105,9 @@ ul {
     border-radius: var(--radius-lg);
     overflow: hidden;
     position: relative;
-    background:
-      linear-gradient(to top, #1e00a5ba, #6000a1cc),
-      url(https://images.squarespace-cdn.com/content/v1/5fc5c5ec9698b02c7f421436/1606972673927-WR4Q5A79T2BOH81HOKTS/WWTBAM_TitleScreen+copy.png)
-        center / cover no-repeat;
+    background: linear-gradient(to top, #1e00a5ba, #6000a1cc),
+      image-set(url(https://images.squarespace-cdn.com/content/v1/5fc5c5ec9698b02c7f421436/1606972673927-WR4Q5A79T2BOH81HOKTS/WWTBAM_TitleScreen+copy.png)
+        type("image/webp")) center / cover no-repeat;
   }
 
   .index-hero__content {

@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Test your knowledge with Team 5 Quiz App. Play quizzes across categories and difficulty levels, check the scoreboard, or replay past quizzes."
+    />
 
     <link rel="stylesheet" href="/style/base.css" />
     <link rel="stylesheet" href="/style/style-previous.css" />
@@ -17,7 +21,7 @@
 
   <body>
     <header class="page-bar">
-      <div class="quiz-nav">
+      <nav class="quiz-nav">
         <a
           href="../index.html"
           class="page-bar__back"
@@ -28,29 +32,29 @@
           ></span>
         </a>
         <span>Back to dashboard</span>
-      </div>
+      </nav>
     </header>
     <section id="hero">
       <img
-        src="https://placehold.co/280?text=image"
-        width="100%"
-        height="280"
-        style="object-fit: cover"
+        src="https://images.squarespace-cdn.com/content/v1/5fc5c5ec9698b02c7f421436/1606972673927-WR4Q5A79T2BOH81HOKTS/WWTBAM_TitleScreen+copy.png"
+        alt=""
       />
+      <span class="hero-overlay" aria-hidden="true"></span>
 
       <div class="card-title">
         <h1>Previous Quizzes</h1>
       </div>
     </section>
 
-    <section id="previous-quiz-container">
-      <button class="previous-quiz-card">
+    <div id="previous-quiz-container">
+      <a class="previous-quiz-card" href="#">
         <!-- placeholder image -->
         <img
           src="https://placehold.co/80x80?text=image"
           height="80"
           width="80"
           style="border-radius: 12px"
+          alt="placeholder image"
         />
         <div class="quiz-card-desc">
           <div class="desc-title-container">
@@ -59,54 +63,12 @@
               >Score: <span class="quiz-score">700</span></span
             >
           </div>
-          <div>
+          <div class="quiz-card-info">
             <p><span>Fruits</span> • <span>Hard</span></p>
             <p>Take this quiz about pineapples</p>
           </div>
         </div>
-      </button>
-      <button class="previous-quiz-card">
-        <!-- placeholder image -->
-        <img
-          src="https://placehold.co/80x80?text=image"
-          height="80"
-          width="80"
-          style="border-radius: 12px"
-        />
-        <div class="quiz-card-desc">
-          <div class="desc-title-container">
-            <p class="quiz-card-desc-title">Pineapple</p>
-            <span class="quiz-card-desc-title"
-              >Score: <span class="quiz-score">700</span></span
-            >
-          </div>
-          <div>
-            <p><span>Fruits</span> • <span>Hard</span></p>
-            <p>Take this quiz about pineapples</p>
-          </div>
-        </div>
-      </button>
-      <button class="previous-quiz-card">
-        <!-- placeholder image -->
-        <img
-          src="https://placehold.co/80x80?text=image"
-          height="80"
-          width="80"
-          style="border-radius: 12px"
-        />
-        <div class="quiz-card-desc">
-          <div class="desc-title-container">
-            <p class="quiz-card-desc-title">Pineapple</p>
-            <span class="quiz-card-desc-title"
-              >Score: <span class="quiz-score">700</span></span
-            >
-          </div>
-          <div>
-            <p><span>Fruits</span> • <span>Hard</span></p>
-            <p>Take this quiz about pineapples</p>
-          </div>
-        </div>
-      </button>
-    </section>
+      </a>
+    </div>
   </body>
 </html>
