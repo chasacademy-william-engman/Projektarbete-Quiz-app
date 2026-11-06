@@ -20,15 +20,15 @@ buttons.forEach((button) => {
       }
 
       if (playable.length === 0) {
-        window.location.href = "pages/categories.html";
+        window.location.href = "./pages/categories.html";
         return;
       }
 
       const pick = playable[Math.floor(Math.random() * playable.length)];
-      window.location.href = `pages/start-quiz.html?category=${pick.category}&difficulty=${pick.difficulty}`;
+      window.location.href = `./pages/start-quiz.html?category=${pick.category}&difficulty=${pick.difficulty}`;
     } catch (error) {
       console.warn("Could not pick a random quiz:", error);
-      window.location.href = "pages/categories.html";
+      window.location.href = "./pages/categories.html";
     } finally {
       button.disabled = false;
     }

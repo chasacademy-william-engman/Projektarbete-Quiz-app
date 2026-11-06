@@ -28,6 +28,6 @@ if (!quiz || score === null) {
   }
 
   document.querySelector("#play-again").addEventListener("click", () => {
-    window.location.href = "quiz-game.html";
+    window.location.href = "./quiz-game.html";
   });
 }

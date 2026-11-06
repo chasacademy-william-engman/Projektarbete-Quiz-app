@@ -45,7 +45,7 @@ function createPreviousCard(entry, image) {
   const desc = createElement("div", "quiz-card-desc", titleContainer, info);
 
   const card = createElement("a", "previous-quiz-card", img, desc);
-  card.href = `start-quiz.html?category=${category}&difficulty=${difficulty}`;
+  card.href = `./start-quiz.html?category=${category}&difficulty=${difficulty}`;
 
   return card;
 }

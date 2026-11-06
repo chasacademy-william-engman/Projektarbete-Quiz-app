@@ -102,7 +102,7 @@ function endQuiz() {
     playedAt: Date.now(),
   });
 
-  window.location.href = "result.html";
+  window.location.href = "./result.html";
 }
 
 // EXIT

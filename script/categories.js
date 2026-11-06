@@ -27,7 +27,7 @@ function createCategoryCard(category, image, levels) {
   );
 
   const card = createElement("a", "category-card", media, name, info);
-  card.href = `start-quiz.html?category=${category}`;
+  card.href = `./start-quiz.html?category=${category}`;
 
   return card;
 }
